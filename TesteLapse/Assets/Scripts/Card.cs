@@ -13,4 +13,6 @@ public class Card : ScriptableObject
     public Sprite image;
     public string responseLeft;
     public string responseRight;
+    public Character character;
+    public bool characterImage;
 }

@@ -6,6 +6,7 @@ public class GameManager : MonoBehaviour
 {
 
     private const int statCount = 4;
+    private const int maxStat=10;
     int currCardId = 0;
     Card currCard;
 
@@ -22,6 +23,7 @@ public class GameManager : MonoBehaviour
     // Card UI
     [SerializeField] private Image cardImage;
     [SerializeField] private Text cardText;
+    [SerializeField] private Text characterText;
     [SerializeField] private Text cardRespLeft;
     [SerializeField] private Text cardRespRight;
     private void Start()
@@ -52,8 +54,18 @@ public class GameManager : MonoBehaviour
 
     private void SetCardUI()
     {
-        cardImage.sprite = currCard.image;
+        if (currCard.characterImage && currCard.character!=null)
+            cardImage.sprite = currCard.character.image;
+        else
+            cardImage.sprite = currCard.image;
         cardText.text= currCard.text;
+        if (currCard.character != null)
+        {
+            characterText.text = currCard.character.name;
+            currCard.character.unlocked = true;
+        }
+        else
+            characterText.text = "";
         cardRespLeft.text = currCard.responseLeft;
         cardRespRight.text=currCard.responseRight; 
     }
@@ -91,7 +103,7 @@ public class GameManager : MonoBehaviour
         for(int i = 0; i < statCount; i++)
         {
             float sum=Mathf.Abs(currCard.RespLeftSum[i]);
-            statChange[i].localScale = new Vector3(sum / 30, sum / 30, 1f);
+            statChange[i].localScale = new Vector3(sum / maxStat, sum / maxStat, 1f);
         }
 
     }
@@ -100,7 +112,7 @@ public class GameManager : MonoBehaviour
         for (int i = 0; i < statCount; i++)
         {
             float sum = Mathf.Abs( currCard.RespRightSum[i]);
-            statChange[i].localScale = new Vector3(sum / 30, sum / 30, 1f);
+            statChange[i].localScale = new Vector3(sum / maxStat, sum / maxStat, 1f);
         }
 
     }
