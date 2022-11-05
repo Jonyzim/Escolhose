@@ -13,14 +13,14 @@ MonoBehaviour:
   m_Name: 0_Boris
   m_EditorClassIdentifier: 
   RespLeftSum:
-  - -5
+  - -10
   - 0
-  - 5
+  - 15
   - 0
   RespRightSum:
-  - 5
+  - 10
   - 0
-  - -5
+  - -15
   - 0
   text: "O veterano m\xEDstico passa-te a bufa, aceitas?"
   image: {fileID: 0}

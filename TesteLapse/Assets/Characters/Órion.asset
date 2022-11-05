@@ -14,5 +14,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   name: "\xD3rion"
   description: Cachoro (feliz da vida)
-  image: {fileID: 0}
+  image: {fileID: 21300000, guid: 9ffb849ea9c482148a66933077fd7098, type: 3}
   unlocked: 0

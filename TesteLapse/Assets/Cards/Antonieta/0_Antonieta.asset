@@ -14,16 +14,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   RespLeftSum:
   - 0
-  - -5
-  - 5
+  - -10
+  - 20
   - 0
   RespRightSum:
-  - 5
+  - 10
   - 0
-  - -5
+  - -20
   - 0
-  text: "(com as m\xE3os cheias de sangue) Sua amiga educadamente te pede algo emprestado
-    pra se limpar."
+  text: Sua amiga educadamente te pede algo emprestado pra se limpar.
   image: {fileID: 0}
   responseLeft: Opa, toma essa toalha
   responseRight: Vai se lavar no banheiro minha fia

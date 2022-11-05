@@ -15,12 +15,12 @@ MonoBehaviour:
   RespLeftSum:
   - 0
   - 0
-  - -5
+  - -15
   - 0
   RespRightSum:
   - 0
-  - -5
-  - 5
+  - -15
+  - 15
   - 0
   text: "O veterano est\xE1 vendendo umas pedrinhas quanticamente energizadas. Aceita
     uma?"

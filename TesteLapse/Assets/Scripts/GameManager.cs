@@ -69,12 +69,31 @@ public class GameManager : MonoBehaviour
         cardRespLeft.text = currCard.responseLeft;
         cardRespRight.text=currCard.responseRight; 
     }
-
+    [SerializeField] private float statAnimSpeed = 0.008f;
+    IEnumerator StatsValueAnim(Slider slider,  float newValue)
+    {
+        float lastValue = slider.value;
+        float t=0;
+        Image statsIcon = slider.fillRect.GetComponent<Image>();
+        if (newValue > lastValue)
+            statsIcon.color= Color.green;
+        else if(newValue < lastValue)
+            statsIcon.color = Color.red;
+        do
+        {
+            slider.value = Mathf.Lerp(lastValue, newValue, t);
+            t += statAnimSpeed;
+            yield return new WaitForEndOfFrame();
+        } while (t<=1f);
+        slider.value = newValue;
+        statsIcon.color = Color.white;
+    }
     private void SetStatsUI()
     {
         // update sliders with stats value
         for(int i = 0; i < statCount; i++) {
-            sliders[i].value = stats[i] / 100f;
+            StartCoroutine(StatsValueAnim(sliders[i], stats[i] / 100f));
+            //sliders[i].value = stats[i] / 100f;
         }
     }
 
