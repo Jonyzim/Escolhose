@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   text: TUNININUNNINNUNINO
   image: {fileID: 0}
-  character: {fileID: 11400000, guid: 08312db8b7fa7444c8577592bee97de7, type: 2}
+  character: {fileID: 11400000, guid: 5e98d99001f69e345bc4f9d7133a12f5, type: 2}
   characterImage: 1
   responseLeft: XD
   resultLeft:

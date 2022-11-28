@@ -22,9 +22,9 @@ MonoBehaviour:
     - 0
     - 0
     - 0
-    - 0
-    overridesNextCard: 0
-    nextCard: {fileID: 0}
+    - 1
+    overridesNextCard: 1
+    nextCard: {fileID: 11400000, guid: 13647ac4d5cd9be4791282f1a097e67a, type: 2}
     unlocksPack: 0
     unlockCardPack: {fileID: 0}
   responseRight: FAZ O SAMPLEY DE GUITARRA

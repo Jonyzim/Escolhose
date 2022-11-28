@@ -765,10 +765,11 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 3a1239f4c35f625479deef1d04837279, type: 2}
   - {fileID: 11400000, guid: 720b0271f4e0cdf48af74977b9e39456, type: 2}
   currArcDeck: {fileID: 0}
-  arcMinProgressRate: 0
-  arcProgressChance: 0
+  arcMinProgressRate: 6
+  arcProgressChance: 0.12
   cardPacks: []
-  arcDecks: []
+  arcDecks:
+  - {fileID: 11400000, guid: 23f6b9982c0890346a6ca1643f22a5bc, type: 2}
   stats:
   - 50
   - 50

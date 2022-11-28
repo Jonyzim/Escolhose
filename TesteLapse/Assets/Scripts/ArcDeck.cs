@@ -8,14 +8,15 @@ public class ArcDeck : ScriptableObject
     public string title;
     public ArcCard startingCard,currCard;
 
-    [SerializeField] public LockType lockType;
+    [SerializeField]public LockType LockType{get; set;}
+
     public bool locked;
     
     private void OnEnable()
     {
         currCard = startingCard;
         
-        switch (lockType)
+        switch (LockType)
         {
             case LockType.AlwaysUnlocked:
                 locked = false;

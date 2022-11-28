@@ -13,7 +13,6 @@ MonoBehaviour:
   m_Name: TestCardDeck
   m_EditorClassIdentifier: 
   title: Sample
-  startingCard: {fileID: 0}
-  currCard: {fileID: 0}
-  lockType: 0
+  startingCard: {fileID: 11400000, guid: e7ce7af93460d744ca74409f7b3ac028, type: 2}
+  currCard: {fileID: 11400000, guid: e7ce7af93460d744ca74409f7b3ac028, type: 2}
   locked: 0
