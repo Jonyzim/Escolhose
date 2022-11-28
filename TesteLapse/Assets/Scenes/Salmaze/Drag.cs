@@ -9,7 +9,9 @@ public class Drag : MonoBehaviour, IPointerDownHandler, IBeginDragHandler, IEndD
     [SerializeField] private RectTransform _transform;
     [SerializeField] private CanvasGroup _canvasGroup;
     Vector3 vetor = new Vector3(0, 0, 0);
+    
     [SerializeField] int grau=200;
+    
     Vector3 initialPos = new Vector3(0, 0, 0);
     private bool canDrag = true;
     private bool showingChange = false;
@@ -26,8 +28,7 @@ public class Drag : MonoBehaviour, IPointerDownHandler, IBeginDragHandler, IEndD
     {
         initialPos = _transform.anchoredPosition;
     }
-    public void OnPointerDown(PointerEventData eventData){
-    }
+    public void OnPointerDown(PointerEventData eventData){}
     
     public void OnBeginDrag(PointerEventData eventData)
     {
@@ -108,7 +109,9 @@ public class Drag : MonoBehaviour, IPointerDownHandler, IBeginDragHandler, IEndD
         transform.eulerAngles = vetor;
         _transform.anchoredPosition = initialPos;
     }
+    
     [SerializeField] float animSpeed;
+    
     IEnumerator GoDirection(int dir,UnityEvent e)
     {
         Vector3 pos;
@@ -124,6 +127,7 @@ public class Drag : MonoBehaviour, IPointerDownHandler, IBeginDragHandler, IEndD
         canDrag = true;
 
     }
+    
     public float tres(float a, float x, float b){
           if(a != 0)
           return (b * x)/a;

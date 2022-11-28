@@ -755,6 +755,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5a9ef1e77175e0d46bd0ce4a25910e4e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  currCard: {fileID: 0}
   cards:
   - {fileID: 11400000, guid: 762f7093298c17a4b9a70229bee5917c, type: 2}
   - {fileID: 11400000, guid: 3fdbb38c8bbec24438672f43fee25481, type: 2}
@@ -763,6 +764,11 @@ MonoBehaviour:
   - {fileID: 11400000, guid: a4d03054936d4d649b74b5778f39b62f, type: 2}
   - {fileID: 11400000, guid: 3a1239f4c35f625479deef1d04837279, type: 2}
   - {fileID: 11400000, guid: 720b0271f4e0cdf48af74977b9e39456, type: 2}
+  currArcDeck: {fileID: 0}
+  arcMinProgressRate: 0
+  arcProgressChance: 0
+  cardPacks: []
+  arcDecks: []
   stats:
   - 50
   - 50
