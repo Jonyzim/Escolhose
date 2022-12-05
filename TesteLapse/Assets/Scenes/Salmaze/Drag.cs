@@ -8,6 +8,7 @@ public class Drag : MonoBehaviour, IPointerDownHandler, IBeginDragHandler, IEndD
 {
     [SerializeField] private RectTransform _transform;
     [SerializeField] private CanvasGroup _canvasGroup;
+    [SerializeField] private Canvas _canvas;
     Vector3 vetor = new Vector3(0, 0, 0);
     
     [SerializeField] int grau=200;
@@ -42,7 +43,7 @@ public class Drag : MonoBehaviour, IPointerDownHandler, IBeginDragHandler, IEndD
 
             float _x = _transform.anchoredPosition.x;
             Vector3 pos = _transform.anchoredPosition;
-            _transform.anchoredPosition += eventData.delta;
+            _transform.anchoredPosition += eventData.delta / _canvas.scaleFactor;
             if (!showingChange)
             {
                 // right
