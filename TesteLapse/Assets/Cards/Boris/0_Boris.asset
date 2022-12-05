@@ -12,19 +12,29 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 730c4a9663f8de042a373f0198de5ce7, type: 3}
   m_Name: 0_Boris
   m_EditorClassIdentifier: 
-  RespLeftSum:
-  - -10
-  - 0
-  - 15
-  - 0
-  RespRightSum:
-  - 10
-  - 0
-  - -15
-  - 0
   text: "O veterano m\xEDstico passa-te a bufa, aceitas?"
   image: {fileID: 0}
-  responseLeft: "Sim, claro n\xE9"
-  responseRight: "N\xE3o obrigado"
   character: {fileID: 11400000, guid: 66cc327adda04d0468aea69d91bcb739, type: 2}
   characterImage: 1
+  responseLeft: "Sim, claro n\xE9"
+  resultLeft:
+    values:
+    - 5
+    - 1
+    - 5
+    - 5
+    overridesNextCard: 0
+    nextCard: {fileID: 0}
+    unlocksPack: 0
+    unlockCardPack: {fileID: 0}
+  responseRight: "N\xE3o obrigado"
+  resultRight:
+    values:
+    - 0
+    - 0
+    - 0
+    - 0
+    overridesNextCard: 0
+    nextCard: {fileID: 0}
+    unlocksPack: 0
+    unlockCardPack: {fileID: 0}
