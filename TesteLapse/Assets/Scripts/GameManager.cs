@@ -172,7 +172,7 @@ public class GameManager : MonoBehaviour
             //Possibilita a sobrecarga de cartas futuras
             if (result.nextCard != null) 
                 currCard = result.nextCard;
-            if (direct_progress && currArcDeck.currCard != null)
+            else if (direct_progress && currArcDeck.currCard != null)
             {
                 currCard = currArcDeck.currCard;
             }

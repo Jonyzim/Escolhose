@@ -764,12 +764,14 @@ MonoBehaviour:
   - {fileID: 11400000, guid: a4d03054936d4d649b74b5778f39b62f, type: 2}
   - {fileID: 11400000, guid: 3a1239f4c35f625479deef1d04837279, type: 2}
   - {fileID: 11400000, guid: 720b0271f4e0cdf48af74977b9e39456, type: 2}
+  - {fileID: 11400000, guid: 471184bb9a2a2c447a0500458deb47f6, type: 2}
   currArcDeck: {fileID: 0}
   arcMinProgressRate: 6
   arcProgressChance: 0.12
   cardPacks: []
   arcDecks:
   - {fileID: 11400000, guid: 23f6b9982c0890346a6ca1643f22a5bc, type: 2}
+  - {fileID: 11400000, guid: ae66dfe5e47ff2a4caa37b43eb22d4c9, type: 2}
   stats:
   - 50
   - 50
@@ -1873,6 +1875,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _transform: {fileID: 1425978507}
   _canvasGroup: {fileID: 1425978511}
+  _canvas: {fileID: 0}
   grau: 100
   changeLeft:
     m_PersistentCalls:

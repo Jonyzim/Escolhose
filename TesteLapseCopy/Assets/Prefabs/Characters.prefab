@@ -1,0 +1,122 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1065485363380303311
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1065485363380303310}
+  - component: {fileID: 1065485363380303309}
+  - component: {fileID: 1065485363380303308}
+  - component: {fileID: 8538876816137356171}
+  m_Layer: 5
+  m_Name: Characters
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1065485363380303310
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1065485363380303311}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: -28.8094}
+  m_SizeDelta: {x: -100, y: -191.955}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1065485363380303309
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1065485363380303311}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a8695521f0d02e499659fee002a26c2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Padding:
+    m_Left: 0
+    m_Right: 0
+    m_Top: 0
+    m_Bottom: 0
+  m_ChildAlignment: 0
+  m_StartCorner: 0
+  m_StartAxis: 0
+  m_CellSize: {x: 120, y: 120}
+  m_Spacing: {x: 8, y: 10}
+  m_Constraint: 0
+  m_ConstraintCount: 2
+--- !u!114 &1065485363380303308
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1065485363380303311}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7185750a259c8134e9948e44f7d79536, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  characters:
+  - {fileID: 11400000, guid: 5e98d99001f69e345bc4f9d7133a12f5, type: 2}
+  - {fileID: 11400000, guid: 66cc327adda04d0468aea69d91bcb739, type: 2}
+  - {fileID: 11400000, guid: b787071e6a2ea3f49b5be054cfe1adc3, type: 2}
+  - {fileID: 11400000, guid: f4c60ecb218ab614089e6cd7bb3f866d, type: 2}
+  - {fileID: 11400000, guid: 45a43cc9b5e45754d8470696e2eaea78, type: 2}
+  - {fileID: 11400000, guid: 6dc0e3d9668a0714b9a7b4721a5bbb93, type: 2}
+  - {fileID: 11400000, guid: 83293f7bd57c4d24584c7d486fc61c49, type: 2}
+  - {fileID: 11400000, guid: 08312db8b7fa7444c8577592bee97de7, type: 2}
+  - {fileID: 11400000, guid: 2131332952936c3418eb91f393474825, type: 2}
+  - {fileID: 11400000, guid: 47ff61e7007e0ef4fa08617de992d515, type: 2}
+  - {fileID: 11400000, guid: 5aeda41329b374741b9f206375c6016a, type: 2}
+  - {fileID: 11400000, guid: af72f16c8c4872c43a1107a5caec78bf, type: 2}
+  - {fileID: 11400000, guid: f0ba9e706e21b5a41a345f4f29418e92, type: 2}
+  - {fileID: 11400000, guid: 6263a9b4aa24167429197c25b9e2ed5b, type: 2}
+  characterViewPrefab: {fileID: 296516776986997316, guid: 9017ee53377b3be489f71a52cc8a9598, type: 3}
+--- !u!114 &8538876816137356171
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1065485363380303311}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1aa08ab6e0800fa44ae55d278d1423e3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Content: {fileID: 0}
+  m_Horizontal: 1
+  m_Vertical: 1
+  m_MovementType: 1
+  m_Elasticity: 0.1
+  m_Inertia: 1
+  m_DecelerationRate: 0.135
+  m_ScrollSensitivity: 1
+  m_Viewport: {fileID: 1065485363380303310}
+  m_HorizontalScrollbar: {fileID: 0}
+  m_VerticalScrollbar: {fileID: 0}
+  m_HorizontalScrollbarVisibility: 0
+  m_VerticalScrollbarVisibility: 0
+  m_HorizontalScrollbarSpacing: 0
+  m_VerticalScrollbarSpacing: 0
+  m_OnValueChanged:
+    m_PersistentCalls:
+      m_Calls: []

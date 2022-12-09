@@ -36,5 +36,7 @@ MonoBehaviour:
     nextCard: {fileID: 0}
     unlocksPack: 0
     unlockCardPack: {fileID: 0}
-  progressLeft: {fileID: 0}
-  progressRight: {fileID: 0}
+  isProgressLeftDirect: 1
+  progressLeft: {fileID: 11400000, guid: 28ecc88e6f9ea494aa3e8c13b2bfb0a8, type: 2}
+  isProgressRightDirect: 1
+  progressRight: {fileID: 11400000, guid: 28ecc88e6f9ea494aa3e8c13b2bfb0a8, type: 2}

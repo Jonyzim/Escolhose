@@ -12,11 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0ff8deac57990e74ab9f39cd9828f9c5, type: 3}
   m_Name: pombo1 1
   m_EditorClassIdentifier: 
-  text: 1
+  text: 2
   image: {fileID: 0}
   character: {fileID: 11400000, guid: 66cc327adda04d0468aea69d91bcb739, type: 2}
   characterImage: 0
-  responseLeft: a
+  responseLeft: aa
   resultLeft:
     values:
     - 0
@@ -26,7 +26,7 @@ MonoBehaviour:
     nextCard: {fileID: 0}
     unlocksPack: 0
     unlockCardPack: {fileID: 0}
-  responseRight: b
+  responseRight: ba
   resultRight:
     values:
     - 0
@@ -36,5 +36,7 @@ MonoBehaviour:
     nextCard: {fileID: 0}
     unlocksPack: 0
     unlockCardPack: {fileID: 0}
+  isProgressLeftDirect: 0
   progressLeft: {fileID: 0}
+  isProgressRightDirect: 0
   progressRight: {fileID: 0}
