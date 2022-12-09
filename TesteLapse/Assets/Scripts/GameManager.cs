@@ -58,21 +58,23 @@ public class GameManager : MonoBehaviour
                 print("WHATTT");
                 if (currArcDeck == null) throw new UnityException("The current card is a ArcCard, but currArcDeck is NULL.");
 
+                direct_progress = currArcDeck.currCard.isProgressLeftDirect;
                 currArcDeck.currCard = temp.progressLeft;
                 print($"The {currArcDeck.title}'s new card will be: {currArcDeck}");
             }
             
             HandleResult(currCard.resultLeft);
         }
-        
+
+        private bool direct_progress = false;
         public void AnswerRight()
         {
             if (currCard is ArcCard temp)
             {
                 if (currArcDeck == null) throw new UnityException("The current card is a ArcCard, but currArcDeck is NULL.");
-                
+
+                direct_progress = currArcDeck.currCard.isProgressRightDirect;
                 currArcDeck.currCard = temp.progressRight;
-                
                 print($"The {currArcDeck.title}'s new card will be: {currArcDeck}");
             }
 
@@ -155,8 +157,9 @@ public class GameManager : MonoBehaviour
     #endregion
     
     #region StatControl
+
     private void HandleResult(Result result)
-        {
+    {
             UpdateStats(result.values);
             
             //Desbloqueia Cartas
@@ -167,12 +170,17 @@ public class GameManager : MonoBehaviour
             }
 
             //Possibilita a sobrecarga de cartas futuras
-            if (result.overridesNextCard) 
+            if (result.nextCard != null) 
                 currCard = result.nextCard;
+            if (direct_progress && currArcDeck.currCard != null)
+            {
+                currCard = currArcDeck.currCard;
+            }
             else GetCard();
-            
+
+            direct_progress = false;
             SetCardUI();
-        }
+    }
 
 
         public void ResetChange()

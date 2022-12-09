@@ -6,5 +6,9 @@ using UnityEngine;
 [CreateAssetMenu(fileName = "Data", menuName = "ScriptableObjects/Cards/ArcCard", order = 1)]
 public class ArcCard : Card
 {
-    public ArcCard progressLeft, progressRight;
+    public bool isProgressLeftDirect;
+    public ArcCard progressLeft;
+    
+    public bool isProgressRightDirect;
+    public ArcCard progressRight;
 }
