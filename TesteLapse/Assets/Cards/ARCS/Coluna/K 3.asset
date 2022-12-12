@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0ff8deac57990e74ab9f39cd9828f9c5, type: 3}
+  m_Name: K 3
+  m_EditorClassIdentifier: 
+  text: "Voc\xEA fica meio corcunda devido a m\xE1 postura :/"
+  image: {fileID: 0}
+  character: {fileID: 0}
+  characterImage: 1
+  responseLeft: 
+  resultLeft:
+    values:
+    - 0
+    - 0
+    - 0
+    - 0
+    nextCard: {fileID: 0}
+    unlocksPack: 0
+    unlockCardPack: {fileID: 0}
+  responseRight: 
+  resultRight:
+    values:
+    - 0
+    - 0
+    - 0
+    - 0
+    nextCard: {fileID: 0}
+    unlocksPack: 0
+    unlockCardPack: {fileID: 0}
+  isProgressLeftDirect: 0
+  progressLeft: {fileID: 0}
+  isProgressRightDirect: 0
+  progressRight: {fileID: 0}

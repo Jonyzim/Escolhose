@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0ff8deac57990e74ab9f39cd9828f9c5, type: 3}
+  m_Name: D 4
+  m_EditorClassIdentifier: 
+  text: "Sua coluna t\xE1 legal?"
+  image: {fileID: 0}
+  character: {fileID: 11400000, guid: 2131332952936c3418eb91f393474825, type: 2}
+  characterImage: 1
+  responseLeft: "T\xE1 indo.. T\xF4 fazendo umas caminhadas"
+  resultLeft:
+    values:
+    - 0
+    - 0
+    - 0
+    - 0
+    nextCard: {fileID: 0}
+    unlocksPack: 0
+    unlockCardPack: {fileID: 0}
+  responseRight: "A coluna t\xE1 legal mas a dor t\xE1 criminosa"
+  resultRight:
+    values:
+    - 0
+    - 0
+    - 0
+    - 0
+    nextCard: {fileID: 0}
+    unlocksPack: 0
+    unlockCardPack: {fileID: 0}
+  isProgressLeftDirect: 0
+  progressLeft: {fileID: 11400000, guid: f28d624603866ea42abcf21b60ea7fa0, type: 2}
+  isProgressRightDirect: 0
+  progressRight: {fileID: 11400000, guid: 3bf7319e41724aa418f0fea1e52a033b, type: 2}

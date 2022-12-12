@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0ff8deac57990e74ab9f39cd9828f9c5, type: 3}
+  m_Name: B 2
+  m_EditorClassIdentifier: 
+  text: "O Xand\xE3o n\xE3o vai ajudar a gente, o supremo \xE9 controlado pelos iluminati"
+  image: {fileID: 0}
+  character: {fileID: 11400000, guid: f0ba9e706e21b5a41a345f4f29418e92, type: 2}
+  characterImage: 1
+  responseLeft: "Chama o capit\xE3o Spucky! \U0001F596"
+  resultLeft:
+    values:
+    - 0
+    - 0
+    - 0
+    - 0
+    nextCard: {fileID: 0}
+    unlocksPack: 0
+    unlockCardPack: {fileID: 0}
+  responseRight: Interdita as rotas para Varginha!
+  resultRight:
+    values:
+    - 0
+    - 0
+    - 0
+    - 0
+    nextCard: {fileID: 0}
+    unlocksPack: 0
+    unlockCardPack: {fileID: 0}
+  isProgressLeftDirect: 1
+  progressLeft: {fileID: 11400000, guid: 779be24d65c4f9c47ae6c919001a21a4, type: 2}
+  isProgressRightDirect: 1
+  progressRight: {fileID: 11400000, guid: 8d32544bef3905648ba1b22571668ba1, type: 2}

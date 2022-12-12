@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0ff8deac57990e74ab9f39cd9828f9c5, type: 3}
+  m_Name: rob4
+  m_EditorClassIdentifier: 
+  text: Acho que vou continuar investigando
+  image: {fileID: 0}
+  character: {fileID: 11400000, guid: 47ff61e7007e0ef4fa08617de992d515, type: 2}
+  characterImage: 1
+  responseLeft: "Mas tamb\xE9m, naquele chiqueiro que tu trabalha"
+  resultLeft:
+    values:
+    - 0
+    - 0
+    - 0
+    - 0
+    nextCard: {fileID: 0}
+    unlocksPack: 0
+    unlockCardPack: {fileID: 0}
+  responseRight: "E pra comer ent\xE3o? Nem me fale"
+  resultRight:
+    values:
+    - 0
+    - 0
+    - 0
+    - 0
+    nextCard: {fileID: 0}
+    unlocksPack: 0
+    unlockCardPack: {fileID: 0}
+  isProgressLeftDirect: 0
+  progressLeft: {fileID: 11400000, guid: 47520abf9a8000c45bfa3bf67b2bf5ea, type: 2}
+  isProgressRightDirect: 0
+  progressRight: {fileID: 11400000, guid: 47520abf9a8000c45bfa3bf67b2bf5ea, type: 2}

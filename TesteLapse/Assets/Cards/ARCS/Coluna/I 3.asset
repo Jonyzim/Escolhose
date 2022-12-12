@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0ff8deac57990e74ab9f39cd9828f9c5, type: 3}
+  m_Name: I 3
+  m_EditorClassIdentifier: 
+  text: "Como t\xE1 a coluna? Errada que nem os conservadores?"
+  image: {fileID: 0}
+  character: {fileID: 11400000, guid: f0ba9e706e21b5a41a345f4f29418e92, type: 2}
+  characterImage: 1
+  responseLeft: "Eu t\xF4 regulamentando bem a legisla\xE7\xE3o dela"
+  resultLeft:
+    values:
+    - 0
+    - 0
+    - 0
+    - 0
+    nextCard: {fileID: 0}
+    unlocksPack: 0
+    unlockCardPack: {fileID: 0}
+  responseRight: "Com a minha coluna eu t\xF4 sendo bem liberal"
+  resultRight:
+    values:
+    - 0
+    - 0
+    - 0
+    - 0
+    nextCard: {fileID: 0}
+    unlocksPack: 0
+    unlockCardPack: {fileID: 0}
+  isProgressLeftDirect: 0
+  progressLeft: {fileID: 11400000, guid: b50237941170e3944a55daafed1f4f3a, type: 2}
+  isProgressRightDirect: 0
+  progressRight: {fileID: 11400000, guid: 4faf41555bf39ee48a680f9b8ee8a1ea, type: 2}

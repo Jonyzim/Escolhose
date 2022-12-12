@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0ff8deac57990e74ab9f39cd9828f9c5, type: 3}
+  m_Name: C 1
+  m_EditorClassIdentifier: 
+  text: "Onde \xE9?"
+  image: {fileID: 0}
+  character: {fileID: 11400000, guid: f0ba9e706e21b5a41a345f4f29418e92, type: 2}
+  characterImage: 1
+  responseLeft: "Na capital da Calif\xF3rnia"
+  resultLeft:
+    values:
+    - 0
+    - 0
+    - 0
+    - 0
+    nextCard: {fileID: 0}
+    unlocksPack: 0
+    unlockCardPack: {fileID: 0}
+  responseRight: "Na \xE1rea 51"
+  resultRight:
+    values:
+    - 0
+    - 0
+    - 0
+    - 0
+    nextCard: {fileID: 0}
+    unlocksPack: 0
+    unlockCardPack: {fileID: 0}
+  isProgressLeftDirect: 1
+  progressLeft: {fileID: 11400000, guid: 91cfa91dcf5d5654390a873e555a5b43, type: 2}
+  isProgressRightDirect: 1
+  progressRight: {fileID: 11400000, guid: 4c29e6c4c5163cc4aaea01e3e896b6f6, type: 2}

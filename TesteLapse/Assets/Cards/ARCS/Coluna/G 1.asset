@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0ff8deac57990e74ab9f39cd9828f9c5, type: 3}
+  m_Name: G 1
+  m_EditorClassIdentifier: 
+  text: "Melhorou da coluna? Que pena, tava louco pra te usar de cobaia no meu laborat\xF3rio
+    farmac\xEAutico"
+  image: {fileID: 0}
+  character: {fileID: 11400000, guid: 45a43cc9b5e45754d8470696e2eaea78, type: 2}
+  characterImage: 1
+  responseLeft: "Sai pra l\xE1, n\xE3o sou seu rato"
+  resultLeft:
+    values:
+    - 0
+    - 0
+    - 0
+    - 0
+    nextCard: {fileID: 0}
+    unlocksPack: 0
+    unlockCardPack: {fileID: 0}
+  responseRight: "Mas voc\xEA ia me pagar quanto?"
+  resultRight:
+    values:
+    - 0
+    - 0
+    - 0
+    - 0
+    nextCard: {fileID: 0}
+    unlocksPack: 0
+    unlockCardPack: {fileID: 0}
+  isProgressLeftDirect: 0
+  progressLeft: {fileID: 11400000, guid: 2e949cdac6498e14881de7d57f80f19c, type: 2}
+  isProgressRightDirect: 0
+  progressRight: {fileID: 11400000, guid: 996a810c36053f545b92415ae2e12326, type: 2}

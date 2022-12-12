@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0ff8deac57990e74ab9f39cd9828f9c5, type: 3}
+  m_Name: J 5
+  m_EditorClassIdentifier: 
+  text: "N\xE3o entorta mais a coluna que ela j\xE1 t\xE1 que nem o eixo de rota\xE7\xE3o
+    de Urano"
+  image: {fileID: 0}
+  character: {fileID: 11400000, guid: 5aeda41329b374741b9f206375c6016a, type: 2}
+  characterImage: 1
+  responseLeft: Daqui vem boa parte da entropia do universo
+  resultLeft:
+    values:
+    - 0
+    - 0
+    - 0
+    - 0
+    nextCard: {fileID: 0}
+    unlocksPack: 0
+    unlockCardPack: {fileID: 0}
+  responseRight: "Com essa coluna quem t\xE1 rodando no pr\xF3prio eixo sou eu"
+  resultRight:
+    values:
+    - 0
+    - 0
+    - 0
+    - 0
+    nextCard: {fileID: 0}
+    unlocksPack: 0
+    unlockCardPack: {fileID: 0}
+  isProgressLeftDirect: 1
+  progressLeft: {fileID: 11400000, guid: bf28ff77e7fac86499c579b60d306e66, type: 2}
+  isProgressRightDirect: 1
+  progressRight: {fileID: 11400000, guid: bf28ff77e7fac86499c579b60d306e66, type: 2}
