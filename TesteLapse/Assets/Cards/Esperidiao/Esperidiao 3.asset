@@ -10,30 +10,29 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 730c4a9663f8de042a373f0198de5ce7, type: 3}
-  m_Name: A 1
+  m_Name: Esperidiao 3
   m_EditorClassIdentifier: 
-  text: "Ou voc\xEAs compram os componentes para o trabalho, ou usam os do laborat\xF3rio,
-    que est\xE3o velhos"
+  text: "Voc\xEA t\xE1 me pedindo 300 reais emprestado? Leva 500 logo, imundi\xE7a"
   image: {fileID: 0}
-  character: {fileID: 11400000, guid: 2131332952936c3418eb91f393474825, type: 2}
+  character: {fileID: 11400000, guid: 45a43cc9b5e45754d8470696e2eaea78, type: 2}
   characterImage: 1
-  responseLeft: Comprar
+  responseLeft: Opa valeu
   resultLeft:
     values:
-    - 0
-    - -16
-    - 0
+    - -12
+    - 20
+    - 4
     - 0
     nextCard: {fileID: 0}
     unlocksPack: 0
     unlockCardPack: {fileID: 0}
-  responseRight: "Usar os do laborat\xF3rio"
+  responseRight: "N\xE3o preciso do seu dinheiro sujo"
   resultRight:
     values:
+    - 12
+    - -20
+    - -4
     - 0
-    - 0
-    - 0
-    - -8
     nextCard: {fileID: 0}
     unlocksPack: 0
     unlockCardPack: {fileID: 0}

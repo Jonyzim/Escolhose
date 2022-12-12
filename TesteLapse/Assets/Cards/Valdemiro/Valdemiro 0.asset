@@ -10,29 +10,28 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 730c4a9663f8de042a373f0198de5ce7, type: 3}
-  m_Name: A 1
+  m_Name: Valdemiro 0
   m_EditorClassIdentifier: 
-  text: "Ou voc\xEAs compram os componentes para o trabalho, ou usam os do laborat\xF3rio,
-    que est\xE3o velhos"
+  text: "Malditos americanos! Roubaram as nossas areias monaz\xEDticas "
   image: {fileID: 0}
-  character: {fileID: 11400000, guid: 2131332952936c3418eb91f393474825, type: 2}
+  character: {fileID: 11400000, guid: f0ba9e706e21b5a41a345f4f29418e92, type: 2}
   characterImage: 1
-  responseLeft: Comprar
+  responseLeft: "Tio, isso \xE9 fake news"
   resultLeft:
     values:
+    - 16
     - 0
-    - -16
-    - 0
-    - 0
+    - -8
+    - 8
     nextCard: {fileID: 0}
     unlocksPack: 0
     unlockCardPack: {fileID: 0}
-  responseRight: "Usar os do laborat\xF3rio"
+  responseRight: "N\xE3o! As nossas areias monaz\xEDticas!"
   resultRight:
     values:
+    - -8
     - 0
-    - 0
-    - 0
+    - 12
     - -8
     nextCard: {fileID: 0}
     unlocksPack: 0

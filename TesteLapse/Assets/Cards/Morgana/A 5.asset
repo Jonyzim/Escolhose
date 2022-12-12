@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   text: Deixa  eu contar da vez que eu encontrei o Linus Torvalds andando de motoca
   image: {fileID: 0}
-  character: {fileID: 11400000, guid: af72f16c8c4872c43a1107a5caec78bf, type: 2}
+  character: {fileID: 11400000, guid: 2131332952936c3418eb91f393474825, type: 2}
   characterImage: 1
   responseLeft: Sair da sala
   resultLeft:

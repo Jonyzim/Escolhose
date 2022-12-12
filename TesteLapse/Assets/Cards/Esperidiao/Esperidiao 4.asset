@@ -10,29 +10,28 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 730c4a9663f8de042a373f0198de5ce7, type: 3}
-  m_Name: A 1
+  m_Name: Esperidiao 4
   m_EditorClassIdentifier: 
-  text: "Ou voc\xEAs compram os componentes para o trabalho, ou usam os do laborat\xF3rio,
-    que est\xE3o velhos"
+  text: "N\xE3o acredito que a Teoria do Tunelamento Qu\xE2ntico \xE9 t\xE3o f\xE1cil"
   image: {fileID: 0}
-  character: {fileID: 11400000, guid: 2131332952936c3418eb91f393474825, type: 2}
+  character: {fileID: 11400000, guid: 45a43cc9b5e45754d8470696e2eaea78, type: 2}
   characterImage: 1
-  responseLeft: Comprar
+  responseLeft: Com professor particular deve ser mesmo
   resultLeft:
     values:
-    - 0
-    - -16
-    - 0
+    - 8
+    - -8
+    - -12
     - 0
     nextCard: {fileID: 0}
     unlocksPack: 0
     unlockCardPack: {fileID: 0}
-  responseRight: "Usar os do laborat\xF3rio"
+  responseRight: "Comprando nota at\xE9 eu acharia"
   resultRight:
     values:
-    - 0
-    - 0
-    - 0
+    - 8
+    - -8
+    - -4
     - -8
     nextCard: {fileID: 0}
     unlocksPack: 0

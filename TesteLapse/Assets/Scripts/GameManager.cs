@@ -43,6 +43,7 @@ public class GameManager : MonoBehaviour
     
     private void Start()
     {
+        Shuffle(0,cards.Count);
         GetSimpleCard();
         SetCardUI();
         

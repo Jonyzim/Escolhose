@@ -16,7 +16,7 @@ MonoBehaviour:
   image: {fileID: 0}
   character: {fileID: 11400000, guid: 47ff61e7007e0ef4fa08617de992d515, type: 2}
   characterImage: 1
-  responseLeft: "Mas tamb\xE9m, naquele chiqueiro que tu trabalha"
+  responseLeft: 
   resultLeft:
     values:
     - 0
@@ -26,7 +26,7 @@ MonoBehaviour:
     nextCard: {fileID: 0}
     unlocksPack: 0
     unlockCardPack: {fileID: 0}
-  responseRight: "E pra comer ent\xE3o? Nem me fale"
+  responseRight: 
   resultRight:
     values:
     - 0
