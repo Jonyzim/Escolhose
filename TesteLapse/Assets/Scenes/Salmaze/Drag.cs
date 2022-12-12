@@ -25,10 +25,12 @@ public class Drag : MonoBehaviour, IPointerDownHandler, IBeginDragHandler, IEndD
     [SerializeField] UnityEvent chooseLeft;
     [SerializeField] float maxX=150f;
     float exitX = 400f;
+    
     private void Start()
     {
         initialPos = _transform.anchoredPosition;
     }
+    
     public void OnPointerDown(PointerEventData eventData){}
     
     public void OnBeginDrag(PointerEventData eventData)
@@ -40,7 +42,6 @@ public class Drag : MonoBehaviour, IPointerDownHandler, IBeginDragHandler, IEndD
     {
         if (canDrag)
         {
-
             float _x = _transform.anchoredPosition.x;
             Vector3 pos = _transform.anchoredPosition;
             _transform.anchoredPosition += eventData.delta / _canvas.scaleFactor;
@@ -85,6 +86,7 @@ public class Drag : MonoBehaviour, IPointerDownHandler, IBeginDragHandler, IEndD
     {
       _canvasGroup.blocksRaycasts = true;
         float _x = _transform.anchoredPosition.x;
+        
         if (_x > maxX)
         {
             canDrag = false;
@@ -122,11 +124,11 @@ public class Drag : MonoBehaviour, IPointerDownHandler, IBeginDragHandler, IEndD
             pos.x += animSpeed * dir;
             _transform.anchoredPosition = pos;
             yield return new WaitForEndOfFrame();
-        } while (Mathf.Abs(pos.x)< exitX);
+        }while (Mathf.Abs(pos.x)< exitX);
+        
         e.Invoke();
         ResetPosition();
         canDrag = true;
-
     }
     
     public float tres(float a, float x, float b){

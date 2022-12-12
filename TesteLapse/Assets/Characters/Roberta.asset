@@ -14,5 +14,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   name: Roberta
   description: Tia do bandeco
-  image: {fileID: 21300000, guid: c105ba47b2ae8e94185ec80863e6e96d, type: 3}
+  image: {fileID: 21300000, guid: 4de88ae8f0a710a49bf2d77149d0775e, type: 3}
   unlocked: 0

@@ -561,11 +561,11 @@ PrefabInstance:
     - target: {fileID: 6162841429473593031, guid: 0d7c586fab7b72b44b9434917a835a45, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: 9932bc26e5d52da40aa3b265998c7f3c, type: 3}
+      objectReference: {fileID: 21300000, guid: 01bff2d98ebee5f4b81eec962005a70a, type: 3}
     - target: {fileID: 6162841429520959316, guid: 0d7c586fab7b72b44b9434917a835a45, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: 9932bc26e5d52da40aa3b265998c7f3c, type: 3}
+      objectReference: {fileID: 21300000, guid: 01bff2d98ebee5f4b81eec962005a70a, type: 3}
     - target: {fileID: 6162841429520959319, guid: 0d7c586fab7b72b44b9434917a835a45, type: 3}
       propertyPath: m_AnchorMax.x
       value: 0
@@ -917,11 +917,11 @@ PrefabInstance:
     - target: {fileID: 6162841429473593031, guid: 0d7c586fab7b72b44b9434917a835a45, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: 6c44e6785ff24a7419ce4967baa33bb3, type: 3}
+      objectReference: {fileID: 21300000, guid: f862173445a956f4d9d66a70be277267, type: 3}
     - target: {fileID: 6162841429520959316, guid: 0d7c586fab7b72b44b9434917a835a45, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: 6c44e6785ff24a7419ce4967baa33bb3, type: 3}
+      objectReference: {fileID: 21300000, guid: f862173445a956f4d9d66a70be277267, type: 3}
     - target: {fileID: 6162841429520959319, guid: 0d7c586fab7b72b44b9434917a835a45, type: 3}
       propertyPath: m_AnchorMax.x
       value: 0
@@ -1875,7 +1875,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _transform: {fileID: 1425978507}
   _canvasGroup: {fileID: 1425978511}
-  _canvas: {fileID: 0}
+  _canvas: {fileID: 2077158808}
   grau: 100
   changeLeft:
     m_PersistentCalls:
@@ -1942,7 +1942,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 336672187}
         m_TargetAssemblyTypeName: GameManager, Assembly-CSharp
-        m_MethodName: AnswerRight
+        m_MethodName: AnswerLeft
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -2334,11 +2334,11 @@ PrefabInstance:
     - target: {fileID: 6162841429473593031, guid: 0d7c586fab7b72b44b9434917a835a45, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: c8819be2bcd98e147a9c40b698a35d24, type: 3}
+      objectReference: {fileID: 21300000, guid: 5a08fd461444d574a92d6e0d2b420ed3, type: 3}
     - target: {fileID: 6162841429520959316, guid: 0d7c586fab7b72b44b9434917a835a45, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: c8819be2bcd98e147a9c40b698a35d24, type: 3}
+      objectReference: {fileID: 21300000, guid: 5a08fd461444d574a92d6e0d2b420ed3, type: 3}
     - target: {fileID: 6162841429520959319, guid: 0d7c586fab7b72b44b9434917a835a45, type: 3}
       propertyPath: m_AnchorMax.x
       value: 0

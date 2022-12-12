@@ -98,8 +98,6 @@ public class GameManager : MonoBehaviour
             if ((IsNextCardArc() && GetArcCard()))
                 return;
             
-            print("TO Aqui!!!");
-            
             //Obtains a SimpleCard
             currArcDeck = null;
             GetSimpleCard();

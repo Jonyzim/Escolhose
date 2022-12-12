@@ -14,5 +14,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   name: Miltinho
   description: Nerd, geek e hacker
-  image: {fileID: 21300000, guid: 7ecb7adca45a8ab4bb6078a969060a2a, type: 3}
+  image: {fileID: 21300000, guid: d9120ed91827f894db8dc42fdf8b3910, type: 3}
   unlocked: 0

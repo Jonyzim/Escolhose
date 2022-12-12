@@ -14,5 +14,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   name: Dona Lurdinha
   description: "Vov\xF3zinha fofa (joga truco)"
-  image: {fileID: 21300000, guid: 39ee484fad6299040b7825e0da72d718, type: 3}
+  image: {fileID: 21300000, guid: cb723483c7ea3e5458030937a787b2d6, type: 3}
   unlocked: 0

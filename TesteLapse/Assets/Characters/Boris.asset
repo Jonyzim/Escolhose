@@ -14,5 +14,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   name: Boris
   description: "Veterano m\xEDstico "
-  image: {fileID: 21300000, guid: c8b81a7f77fbfcc4489dd9f772601de4, type: 3}
+  image: {fileID: 21300000, guid: 7bc72bf28fc1e2f4a8bf9e12e0554259, type: 3}
   unlocked: 1

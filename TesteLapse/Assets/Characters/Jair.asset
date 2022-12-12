@@ -14,5 +14,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   name: Jair
   description: Professor chato
-  image: {fileID: 21300000, guid: ca031da5280f39044bd03289ea9840d6, type: 3}
+  image: {fileID: 21300000, guid: e4ce3c45b4392eb43adc6bfe814748cc, type: 3}
   unlocked: 0
