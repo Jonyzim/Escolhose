@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 730c4a9663f8de042a373f0198de5ce7, type: 3}
+  m_Name: A 2
+  m_EditorClassIdentifier: 
+  text: Eu fiz uns bolinhos, quer um?
+  image: {fileID: 0}
+  character: {fileID: 11400000, guid: 5e98d99001f69e345bc4f9d7133a12f5, type: 2}
+  characterImage: 1
+  responseLeft: Claro!
+  resultLeft:
+    values:
+    - -20
+    - 0
+    - 16
+    - 0
+    nextCard: {fileID: 11400000, guid: d30ac96f29969434e8b1eb5ae630164b, type: 2}
+    unlocksPack: 0
+    unlockCardPack: {fileID: 0}
+  responseRight: "N\xE3o, prefiro comprar um"
+  resultRight:
+    values:
+    - 20
+    - -12
+    - -20
+    - 0
+    nextCard: {fileID: 11400000, guid: 147f561d85372934ca5a5d7e0ed6f83f, type: 2}
+    unlocksPack: 0
+    unlockCardPack: {fileID: 0}

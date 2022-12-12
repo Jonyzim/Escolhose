@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 730c4a9663f8de042a373f0198de5ce7, type: 3}
+  m_Name: A 5
+  m_EditorClassIdentifier: 
+  text: "Quer dar uma passadinha l\xE1 em casa mais tarde, meu amor?"
+  image: {fileID: 0}
+  character: {fileID: 11400000, guid: 47ff61e7007e0ef4fa08617de992d515, type: 2}
+  characterImage: 1
+  responseLeft: "Claro! T\xF4 louquinho pra te fazer uma massagem"
+  resultLeft:
+    values:
+    - 0
+    - 0
+    - 0
+    - 0
+    nextCard: {fileID: 11400000, guid: be86f60226ee8884886f4d5c5958388d, type: 2}
+    unlocksPack: 0
+    unlockCardPack: {fileID: 0}
+  responseRight: "T\xF4 meio ocupado hoje, desculpa"
+  resultRight:
+    values:
+    - 0
+    - 0
+    - -16
+    - 0
+    nextCard: {fileID: 11400000, guid: be86f60226ee8884886f4d5c5958388d, type: 2}
+    unlocksPack: 0
+    unlockCardPack: {fileID: 0}

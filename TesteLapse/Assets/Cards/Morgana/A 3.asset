@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 730c4a9663f8de042a373f0198de5ce7, type: 3}
+  m_Name: A 3
+  m_EditorClassIdentifier: 
+  text: "Me deem uma aplica\xE7\xE3o de vetores linearmente independentes"
+  image: {fileID: 0}
+  character: {fileID: 11400000, guid: af72f16c8c4872c43a1107a5caec78bf, type: 2}
+  characterImage: 1
+  responseLeft: Em uma base
+  resultLeft:
+    values:
+    - 0
+    - 0
+    - 0
+    - 20
+    nextCard: {fileID: 0}
+    unlocksPack: 0
+    unlockCardPack: {fileID: 0}
+  responseRight: Nos dentes dos garfos do Bandeco
+  resultRight:
+    values:
+    - 12
+    - 0
+    - 8
+    - 16
+    nextCard: {fileID: 0}
+    unlocksPack: 0
+    unlockCardPack: {fileID: 0}
