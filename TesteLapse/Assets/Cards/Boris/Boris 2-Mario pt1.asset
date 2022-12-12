@@ -19,11 +19,11 @@ MonoBehaviour:
   responseLeft: Conhece o Mario?
   resultLeft:
     values:
-    - 12
     - 0
-    - -12
     - 0
-    nextCard: {fileID: 0}
+    - 0
+    - 0
+    nextCard: {fileID: 11400000, guid: dadecd7bfc67aa744b820822be4b41be, type: 2}
     unlocksPack: 0
     unlockCardPack: {fileID: 0}
   responseRight: Acho que vou experimentar um gole

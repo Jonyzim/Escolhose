@@ -12,26 +12,26 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 730c4a9663f8de042a373f0198de5ce7, type: 3}
   m_Name: Boris 2-Mario pt2
   m_EditorClassIdentifier: 
-  text: "Aceitas um gole desse ch\xE1 de cogumelo?"
+  text: "Que M\xE1rio?"
   image: {fileID: 0}
   character: {fileID: 11400000, guid: 66cc327adda04d0468aea69d91bcb739, type: 2}
   characterImage: 1
-  responseLeft: Conhece o Mario?
+  responseLeft: "Aquele do kart\xF3dromo!"
   resultLeft:
     values:
-    - 12
     - 0
-    - -12
+    - 0
+    - 12
     - 0
     nextCard: {fileID: 0}
     unlocksPack: 0
     unlockCardPack: {fileID: 0}
-  responseRight: Acho que vou experimentar um gole
+  responseRight: "Aquele da cabe\xE7ada no tijolo!"
   resultRight:
     values:
     - 0
     - 0
-    - 0
+    - 12
     - 0
     nextCard: {fileID: 0}
     unlocksPack: 0
