@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0ff8deac57990e74ab9f39cd9828f9c5, type: 3}
+  m_Name: J 4
+  m_EditorClassIdentifier: 
+  text: "\xC9 um efeito relativ\xEDstico ou a sua coluna est\xE1 mesmo assim t\xE3o
+    torta?"
+  image: {fileID: 0}
+  character: {fileID: 11400000, guid: 5aeda41329b374741b9f206375c6016a, type: 2}
+  characterImage: 1
+  responseLeft: "De tudo um pouco eu t\xF4 tentando pra ela ficar no lugar"
+  resultLeft:
+    values:
+    - 0
+    - 0
+    - 0
+    - 0
+    nextCard: {fileID: 0}
+    unlocksPack: 0
+    unlockCardPack: {fileID: 0}
+  responseRight: "Essa coluna Darwin n\xE3o explica, mas Einstein talvez"
+  resultRight:
+    values:
+    - 0
+    - 0
+    - 0
+    - 0
+    nextCard: {fileID: 0}
+    unlocksPack: 0
+    unlockCardPack: {fileID: 0}
+  isProgressLeftDirect: 1
+  progressLeft: {fileID: 11400000, guid: 300831f687228184aabe645edbd7e155, type: 2}
+  isProgressRightDirect: 1
+  progressRight: {fileID: 11400000, guid: 300831f687228184aabe645edbd7e155, type: 2}

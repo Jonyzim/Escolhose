@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0ff8deac57990e74ab9f39cd9828f9c5, type: 3}
+  m_Name: D 1
+  m_EditorClassIdentifier: 
+  text: Melhorou da coluna, chicletinho?
+  image: {fileID: 0}
+  character: {fileID: 11400000, guid: 2131332952936c3418eb91f393474825, type: 2}
+  characterImage: 1
+  responseLeft: Melhorei mas ainda sim vou continuar com a yoga
+  resultLeft:
+    values:
+    - 0
+    - 0
+    - 0
+    - 0
+    nextCard: {fileID: 0}
+    unlocksPack: 0
+    unlockCardPack: {fileID: 0}
+  responseRight: "At\xE9 que enfim melhorei, n\xE3o aguento mais aquele prof de yoga"
+  resultRight:
+    values:
+    - 0
+    - 0
+    - 0
+    - 0
+    nextCard: {fileID: 0}
+    unlocksPack: 0
+    unlockCardPack: {fileID: 0}
+  isProgressLeftDirect: 0
+  progressLeft: {fileID: 11400000, guid: 1e1a63b7502851f49aa02f1b777f6723, type: 2}
+  isProgressRightDirect: 0
+  progressRight: {fileID: 11400000, guid: e588447c4900463459e8503b395bc04a, type: 2}

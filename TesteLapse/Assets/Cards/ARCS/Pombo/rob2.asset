@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0ff8deac57990e74ab9f39cd9828f9c5, type: 3}
+  m_Name: rob2
+  m_EditorClassIdentifier: 
+  text: "Pois esse novo frango \xE9 1,90 o quilo"
+  image: {fileID: 0}
+  character: {fileID: 11400000, guid: 47ff61e7007e0ef4fa08617de992d515, type: 2}
+  characterImage: 1
+  responseLeft: "Ah, \xE9 que o governo t\xEAm sido muito competente"
+  resultLeft:
+    values:
+    - 0
+    - 0
+    - 0
+    - 0
+    nextCard: {fileID: 0}
+    unlocksPack: 0
+    unlockCardPack: {fileID: 0}
+  responseRight: "Um frango com esse pre\xE7o!?"
+  resultRight:
+    values:
+    - 0
+    - 0
+    - 0
+    - 0
+    nextCard: {fileID: 0}
+    unlocksPack: 0
+    unlockCardPack: {fileID: 0}
+  isProgressLeftDirect: 0
+  progressLeft: {fileID: 0}
+  isProgressRightDirect: 0
+  progressRight: {fileID: 11400000, guid: 58b9afe82cc616d4da089fbbe06ab698, type: 2}

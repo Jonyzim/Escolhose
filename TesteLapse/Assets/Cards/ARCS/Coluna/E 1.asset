@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0ff8deac57990e74ab9f39cd9828f9c5, type: 3}
+  m_Name: E 1
+  m_EditorClassIdentifier: 
+  text: "Voc\xEA de volta na academia?"
+  image: {fileID: 0}
+  character: {fileID: 11400000, guid: b787071e6a2ea3f49b5be054cfe1adc3, type: 2}
+  characterImage: 1
+  responseLeft: "Sim, a minha coluna t\xE1 melhor"
+  resultLeft:
+    values:
+    - 0
+    - 0
+    - 0
+    - 0
+    nextCard: {fileID: 0}
+    unlocksPack: 0
+    unlockCardPack: {fileID: 0}
+  responseRight: "Minha m\xE3e me obrigou"
+  resultRight:
+    values:
+    - 0
+    - 0
+    - 0
+    - 0
+    nextCard: {fileID: 0}
+    unlocksPack: 0
+    unlockCardPack: {fileID: 0}
+  isProgressLeftDirect: 0
+  progressLeft: {fileID: 11400000, guid: 1e1a63b7502851f49aa02f1b777f6723, type: 2}
+  isProgressRightDirect: 0
+  progressRight: {fileID: 11400000, guid: a91ee21f209c32d488c7f6090bdb650e, type: 2}

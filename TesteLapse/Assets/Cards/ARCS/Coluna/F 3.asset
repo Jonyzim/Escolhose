@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0ff8deac57990e74ab9f39cd9828f9c5, type: 3}
+  m_Name: F 3
+  m_EditorClassIdentifier: 
+  text: Quer um chazinho pra coluna?
+  image: {fileID: 0}
+  character: {fileID: 11400000, guid: f4c60ecb218ab614089e6cd7bb3f866d, type: 2}
+  characterImage: 1
+  responseLeft: "Qualquer coisa sempre ajuda, obrigado v\xF3"
+  resultLeft:
+    values:
+    - 0
+    - 0
+    - 0
+    - 0
+    nextCard: {fileID: 0}
+    unlocksPack: 0
+    unlockCardPack: {fileID: 0}
+  responseRight: "Essa coluna n\xE3o tem mais salva\xE7\xE3o"
+  resultRight:
+    values:
+    - 0
+    - 0
+    - 0
+    - 0
+    nextCard: {fileID: 0}
+    unlocksPack: 0
+    unlockCardPack: {fileID: 0}
+  isProgressLeftDirect: 0
+  progressLeft: {fileID: 11400000, guid: 7b8f1f339f592564896848ee04a9552e, type: 2}
+  isProgressRightDirect: 0
+  progressRight: {fileID: 11400000, guid: 3879f525c36695b429bc4e61d1a95be5, type: 2}
