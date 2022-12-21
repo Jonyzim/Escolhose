@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a03b0dc7b406271458932cc643df20b9, type: 3}
+  m_Name: Mortes
+  m_EditorClassIdentifier: 
+  maxCards:
+  - {fileID: 11400000, guid: 258bef04943ca2249ad6f073279a7e9b, type: 2}
+  - {fileID: 11400000, guid: 8e43843ae28f7c34fa980bacec064c80, type: 2}
+  - {fileID: 11400000, guid: cedea0b8074794e4999d5ace4a1a64ca, type: 2}
+  - {fileID: 11400000, guid: 1ac90cfa97c6858448a828edffbea0e4, type: 2}
+  minCards:
+  - {fileID: 11400000, guid: c044811494925bd4a99c45c49ed8ceec, type: 2}
+  - {fileID: 11400000, guid: fb7f699d76efaed44b2513521f528313, type: 2}
+  - {fileID: 11400000, guid: 4b24d680ad011bf40999beb705ba4aad, type: 2}
+  - {fileID: 11400000, guid: c29f2284907517e4a9d85316c1a73197, type: 2}

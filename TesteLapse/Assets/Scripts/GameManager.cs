@@ -54,32 +54,49 @@ public class GameManager : MonoBehaviour
     #region CardLogic
         public void AnswerLeft()
         {
-            if (currCard is ArcCard temp)
+            if (currCard.die)
             {
-                print("WHATTT");
-                if (currArcDeck == null) throw new UnityException("The current card is a ArcCard, but currArcDeck is NULL.");
-
-                direct_progress = currArcDeck.currCard.isProgressLeftDirect;
-                currArcDeck.currCard = temp.progressLeft;
-                print($"The {currArcDeck.title}'s new card will be: {currArcDeck}");
+                print("YOU DIED");
             }
-            
-            HandleResult(currCard.resultLeft);
+            else
+            {
+                if (currCard is ArcCard temp)
+                {
+                    print("WHATTT");
+                    if (currArcDeck == null) throw new UnityException("The current card is a ArcCard, but currArcDeck is NULL.");
+
+                    direct_progress = currArcDeck.currCard.isProgressLeftDirect;
+                    currArcDeck.currCard = temp.progressLeft;
+                    print($"The {currArcDeck.title}'s new card will be: {currArcDeck}");
+                }
+
+                HandleResult(currCard.resultLeft);
+            }
+
         }
 
         private bool direct_progress = false;
         public void AnswerRight()
         {
-            if (currCard is ArcCard temp)
+            if (currCard.die)
             {
-                if (currArcDeck == null) throw new UnityException("The current card is a ArcCard, but currArcDeck is NULL.");
 
-                direct_progress = currArcDeck.currCard.isProgressRightDirect;
-                currArcDeck.currCard = temp.progressRight;
-                print($"The {currArcDeck.title}'s new card will be: {currArcDeck}");
+                print("YOU DIED");
+            }
+            else
+            {
+                if (currCard is ArcCard temp)
+                {
+                    if (currArcDeck == null) throw new UnityException("The current card is a ArcCard, but currArcDeck is NULL.");
+
+                    direct_progress = currArcDeck.currCard.isProgressRightDirect;
+                    currArcDeck.currCard = temp.progressRight;
+                    print($"The {currArcDeck.title}'s new card will be: {currArcDeck}");
+                }
+
+                HandleResult(currCard.resultRight);
             }
 
-            HandleResult(currCard.resultRight);
         }
 
         private bool IsNextCardArc()
@@ -154,33 +171,60 @@ public class GameManager : MonoBehaviour
             }
         }
     #endregion
-    
+
     #region StatControl
 
-    private void HandleResult(Result result)
-    {
+    bool isDead = false;
+    Card deathCard;
+    [SerializeField] DeathPack deathPack;
+        private bool CheckDeath()
+        {
+            for (int i = 0; i < statCount; i++)
+            {
+                if (stats[i] >= 100)
+                {
+                    deathCard = deathPack.GetMaxDeath(i);
+                    return true;
+                }
+                else if (stats[i] <= 0)
+                {
+                    deathCard = deathPack.GetMinDeath(i);
+                    return true;
+                }
+            }
+            return false;
+        }
+        private void HandleResult(Result result)
+        {
             UpdateStats(result.values);
-            
-            //Desbloqueia Cartas
-            if (result.unlocksPack && result.unlockCardPack.locked)
+            isDead = CheckDeath();
+            if (isDead)
             {
-                result.unlockCardPack.locked = false;
-                AddCardsFromPack(result.unlockCardPack);
+                currCard = deathCard;
+            }
+            else
+            {
+                //Desbloqueia Cartas
+                if (result.unlocksPack && result.unlockCardPack.locked)
+                {
+                    result.unlockCardPack.locked = false;
+                    AddCardsFromPack(result.unlockCardPack);
+                }
+
+                //Possibilita a sobrecarga de cartas futuras
+                if (result.nextCard != null)
+                    currCard = result.nextCard;
+                else if (direct_progress && currArcDeck.currCard != null)
+                {
+                    currCard = currArcDeck.currCard;
+                }
+                else GetCard();
+
+                direct_progress = false;
             }
 
-            //Possibilita a sobrecarga de cartas futuras
-            if (result.nextCard != null) 
-                currCard = result.nextCard;
-            else if (direct_progress && currArcDeck.currCard != null)
-            {
-                currCard = currArcDeck.currCard;
-            }
-            else GetCard();
-
-            direct_progress = false;
             SetCardUI();
-    }
-
+        }
 
         private void UpdateStats(float[] statSum)
         {

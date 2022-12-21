@@ -10,7 +10,7 @@ public class Card : ScriptableObject
     public Sprite image;
     public Character character;
     public bool characterImage;
-    
+    public bool die;
     public string responseLeft;
     public Result resultLeft;
     

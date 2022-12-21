@@ -479,6 +479,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6162841428549328866, guid: 0d7c586fab7b72b44b9434917a835a45, type: 3}
+      propertyPath: m_Interactable
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6162841428549328866, guid: 0d7c586fab7b72b44b9434917a835a45, type: 3}
       propertyPath: m_TargetGraphic
       value: 
       objectReference: {fileID: 697404330}
@@ -885,6 +889,7 @@ MonoBehaviour:
   cardRespLeft: {fileID: 88985775}
   cardRespRight: {fileID: 1437867031}
   dragScript: {fileID: 0}
+  deathPack: {fileID: 11400000, guid: 46ccc5702d0a262459faaaee8781d213, type: 2}
   statAnimSpeed: 0.005
   positiveColor: {r: 0.44139376, g: 0.8584906, b: 0.5153114, a: 1}
   negativeColor: {r: 1, g: 0.43867922, b: 0.43867922, a: 1}
@@ -926,6 +931,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4011697222720756341, guid: 0d7c586fab7b72b44b9434917a835a45, type: 3}
       propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6162841428549328866, guid: 0d7c586fab7b72b44b9434917a835a45, type: 3}
+      propertyPath: m_Interactable
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6162841428549328866, guid: 0d7c586fab7b72b44b9434917a835a45, type: 3}
@@ -1694,6 +1703,22 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4011697222720756341, guid: 0d7c586fab7b72b44b9434917a835a45, type: 3}
       propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6162841428549328866, guid: 0d7c586fab7b72b44b9434917a835a45, type: 3}
+      propertyPath: m_Value
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6162841428549328866, guid: 0d7c586fab7b72b44b9434917a835a45, type: 3}
+      propertyPath: m_MinValue
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6162841428549328866, guid: 0d7c586fab7b72b44b9434917a835a45, type: 3}
+      propertyPath: m_Interactable
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6162841428549328866, guid: 0d7c586fab7b72b44b9434917a835a45, type: 3}
+      propertyPath: m_WholeNumbers
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6162841428549328868, guid: 0d7c586fab7b72b44b9434917a835a45, type: 3}
@@ -2498,6 +2523,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4011697222720756341, guid: 0d7c586fab7b72b44b9434917a835a45, type: 3}
       propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6162841428549328866, guid: 0d7c586fab7b72b44b9434917a835a45, type: 3}
+      propertyPath: m_Interactable
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6162841428549328866, guid: 0d7c586fab7b72b44b9434917a835a45, type: 3}
