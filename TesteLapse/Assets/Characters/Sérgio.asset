@@ -14,5 +14,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   name: "S\xE9rgio"
   description: Astronauta do pix
-  image: {fileID: 21300000, guid: 09ee39d1ab973bd48b2086a3a5e26515, type: 3}
-  unlocked: 0
+  image: {fileID: 21300000, guid: cb52ced7b9413154492d97253a9b1944, type: 3}
+  unlocked: 1

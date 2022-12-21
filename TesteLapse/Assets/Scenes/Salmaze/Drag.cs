@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.Events;
-
 public class Drag : MonoBehaviour, IPointerDownHandler, IBeginDragHandler, IEndDragHandler, IDragHandler
 {
     [SerializeField] private RectTransform _transform;
@@ -24,6 +23,9 @@ public class Drag : MonoBehaviour, IPointerDownHandler, IBeginDragHandler, IEndD
     [SerializeField] UnityEvent chooseRight;
     [SerializeField] UnityEvent chooseLeft;
     [SerializeField] float maxX=150f;
+
+    public float CurrRatioX;
+
     float exitX = 400f;
     
     private void Start()
@@ -43,7 +45,6 @@ public class Drag : MonoBehaviour, IPointerDownHandler, IBeginDragHandler, IEndD
         if (canDrag)
         {
             float _x = _transform.anchoredPosition.x;
-            Vector3 pos = _transform.anchoredPosition;
             _transform.anchoredPosition += eventData.delta / _canvas.scaleFactor;
             if (!showingChange)
             {
@@ -79,6 +80,7 @@ public class Drag : MonoBehaviour, IPointerDownHandler, IBeginDragHandler, IEndD
             }
             vetor.z = tres(900, grau * -1, _x);
             transform.eulerAngles = vetor;
+            CurrRatioX = _x / maxX;
         }
     }
 
@@ -104,6 +106,7 @@ public class Drag : MonoBehaviour, IPointerDownHandler, IBeginDragHandler, IEndD
         }
         resetChange.Invoke();
         showingChange = false;
+        CurrRatioX = _x / maxX;
     }
     private void ResetPosition()
     {

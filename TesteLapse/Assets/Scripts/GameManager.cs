@@ -7,7 +7,7 @@ using UnityEngine.UI;
 public class GameManager : MonoBehaviour
 {
     private const int statCount = 4;
-    private const int maxStat=10;
+    private const int maxStat=13;
     
     //Simple Cards
     int currCardId = 0;
@@ -37,7 +37,7 @@ public class GameManager : MonoBehaviour
     [SerializeField] private Text characterText;
     [SerializeField] private Text cardRespLeft;
     [SerializeField] private Text cardRespRight;
-    
+    [SerializeField] Drag dragScript;
     //Misc
     private System.Random _random = new System.Random();
     
@@ -182,14 +182,6 @@ public class GameManager : MonoBehaviour
     }
 
 
-        public void ResetChange()
-        {
-            for (int i = 0; i < statCount; i++)
-            {
-                statChange[i].localScale = new Vector3(0,0, 1f);
-            }
-        }
-        
         private void UpdateStats(float[] statSum)
         {
             for (int i = 0; i < statCount; i++)
@@ -200,10 +192,18 @@ public class GameManager : MonoBehaviour
             }
             SetStatsUI();
         }
-        #endregion
-        
+    #endregion
+
     #region UiAndAnimation
-        
+
+        public void ResetChange()
+        {
+            for (int i = 0; i < statCount; i++)
+            {
+                statChange[i].localScale = new Vector3(0, 0, 1f);
+            }
+        }
+
         public void ShowChangeLeft()
         {
             for(int i = 0; i < statCount; i++)
@@ -221,7 +221,43 @@ public class GameManager : MonoBehaviour
                 statChange[i].localScale = new Vector3(sum / maxStat, sum / maxStat, 1f);
             }
         }
-        
+        Coroutine changeColorRoutine=null;
+
+        public void ResetResp()
+        {
+
+            if (changeColorRoutine != null)
+                StopCoroutine(changeColorRoutine);
+            cardRespRight.color = new Color(1, 1, 1, 0);
+            cardRespLeft.color = new Color(1, 1, 1, 0);
+        }
+        public void ShowRespLeft()
+        {
+            if (changeColorRoutine != null)
+                StopCoroutine(changeColorRoutine);
+            cardRespRight.color = new Color(1, 1, 1, 0);
+            changeColorRoutine = StartCoroutine(ChangeTextColor(cardRespLeft, new Color(1, 1, 1, 1), new Color(1, 1, 1, 0)));
+        }
+
+        public void ShowRespRight()
+        {
+            if (changeColorRoutine != null)
+                StopCoroutine(changeColorRoutine);
+            cardRespLeft.color = new Color(1, 1, 1, 0);
+            changeColorRoutine=StartCoroutine(ChangeTextColor(cardRespRight, new Color(1, 1, 1, 1), new Color(0, 0, 0, 0)));
+        }
+
+        IEnumerator ChangeTextColor(Text text,Color newColor, Color oldColor)
+        {
+            float t = 0;
+            do
+            {
+                text.color = Color.Lerp(oldColor, newColor, t);
+                t += statAnimSpeed;
+                yield return new WaitForEndOfFrame();
+            } while (t <= 1f);
+            text.color = newColor;
+        }
         private void SetStatsUI()
         {
             // update sliders with stats value
@@ -250,15 +286,17 @@ public class GameManager : MonoBehaviour
         }
         
         [SerializeField] private float statAnimSpeed = 0.008f;
+    [SerializeField] private Color positiveColor;
+    [SerializeField] private Color negativeColor;
         IEnumerator StatsValueAnim(Slider slider,  float newValue)
         {
             float lastValue = slider.value;
             float t=0;
             Image statsIcon = slider.fillRect.GetComponent<Image>();
             if (newValue > lastValue)
-                statsIcon.color= Color.green;
+                statsIcon.color= positiveColor;
             else if(newValue < lastValue)
-                statsIcon.color = Color.red;
+                statsIcon.color = negativeColor;
             do
             {
                 slider.value = Mathf.Lerp(lastValue, newValue, t);
