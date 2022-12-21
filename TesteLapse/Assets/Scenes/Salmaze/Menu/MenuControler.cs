@@ -17,12 +17,10 @@ public class MenuControler : MonoBehaviour
     {
         source.clip = clip;
         source.volume = 0.3f;
-       //ini = GetComponent<Animator>();
     }
     public void Config()
     {
         PainelConfig.SetActive(true);
-       // ini.Play("Go");
        if (sound_fx == true)
        {
            source.Play();
