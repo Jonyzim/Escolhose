@@ -10,7 +10,7 @@ public class Controledemusica : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        if (PlayerPrefs.GetInt("foo")==1) {
+        if (PlayerPrefs.GetInt("music")==1) {
               source.loop = true;
               source.clip = clip;
               source.volume = 0.3f;

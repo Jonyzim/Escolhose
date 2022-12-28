@@ -15,4 +15,4 @@ MonoBehaviour:
   name: "B\xE1rbara"
   description: "Crossfiteira, estudiosa e s\xE9ria "
   image: {fileID: 21300000, guid: a929cfdf495594744af17132403c6584, type: 3}
-  unlocked: 1
+  unlocked: 0

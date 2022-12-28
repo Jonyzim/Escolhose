@@ -15,4 +15,4 @@ MonoBehaviour:
   name: Morgana
   description: 'Punk, anti-sistema e guitarrista  '
   image: {fileID: 21300000, guid: 3133a72b12188ac45a3cc6e459fab4a6, type: 3}
-  unlocked: 1
+  unlocked: 0

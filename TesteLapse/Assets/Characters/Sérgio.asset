@@ -15,4 +15,4 @@ MonoBehaviour:
   name: "S\xE9rgio"
   description: Astronauta do pix
   image: {fileID: 21300000, guid: cb52ced7b9413154492d97253a9b1944, type: 3}
-  unlocked: 1
+  unlocked: 0

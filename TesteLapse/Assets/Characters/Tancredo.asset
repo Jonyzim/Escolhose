@@ -15,4 +15,4 @@ MonoBehaviour:
   name: Tancredo
   description: Professor legal
   image: {fileID: 21300000, guid: 09c00749151e055408898486ae3270f9, type: 3}
-  unlocked: 1
+  unlocked: 0

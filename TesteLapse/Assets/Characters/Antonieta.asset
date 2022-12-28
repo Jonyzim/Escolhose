@@ -15,4 +15,4 @@ MonoBehaviour:
   name: Antonieta
   description: "Mo\xE7a boazinha (psicopata) "
   image: {fileID: 21300000, guid: 88dbd862abb76e44b9875fa10ff7b96c, type: 3}
-  unlocked: 1
+  unlocked: 0

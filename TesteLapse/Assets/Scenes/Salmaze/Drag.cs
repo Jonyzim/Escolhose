@@ -124,17 +124,18 @@ public class Drag : MonoBehaviour, IPointerDownHandler, IBeginDragHandler, IEndD
     IEnumerator GoDirection(int dir,UnityEvent e)
     {
         Vector3 pos;
+        if (PlayerPrefs.GetInt("sound_fx") == 1)
+        {
+            source.clip = clip;
+            source.volume = 0.1f;
+            source.Play();
+        }
         do
         {
-            if (PlayerPrefs.GetInt("sound_fx")==1) {
-                source.clip = clip;
-                source.volume = 0.1f;
-                source.Play();
-            }
              pos = _transform.anchoredPosition;
             pos.x += animSpeed * dir;
             _transform.anchoredPosition = pos;
-            yield return new WaitForEndOfFrame();
+            yield return new WaitForFixedUpdate();
         }while (Mathf.Abs(pos.x)< exitX);
         
         e.Invoke();

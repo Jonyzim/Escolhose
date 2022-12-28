@@ -3,14 +3,17 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Serialization;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
     private const int statCount = 4;
     private const int maxStat=13;
-    
+
+    private const string MENU_SCENE = "Menu";
     //Simple Cards
     int currCardId = 0;
+    float score = 0;
     public Card currCard;
     [SerializeField] private List<Card> cards;
     
@@ -28,6 +31,7 @@ public class GameManager : MonoBehaviour
     [SerializeField] private float[] stats=new float[statCount];
 
     // Stats UI
+    [SerializeField] private Text scoreText;
     [SerializeField] private Slider[] sliders = new Slider[statCount];
     [SerializeField] private Transform[] statChange = new Transform[statCount];
     
@@ -49,6 +53,13 @@ public class GameManager : MonoBehaviour
         
         SetStatsUI();
         ResetChange();
+        score = 0;
+    }
+
+    public void Load(string scene)
+    {
+        SceneManager.LoadScene(scene);
+       
     }
     
     #region CardLogic
@@ -56,18 +67,20 @@ public class GameManager : MonoBehaviour
         {
             if (currCard.die)
             {
-                print("YOU DIED");
+                //print("YOU DIED");
+                Load(MENU_SCENE);
+
             }
             else
             {
                 if (currCard is ArcCard temp)
                 {
-                    print("WHATTT");
+                    //print("WHATTT");
                     if (currArcDeck == null) throw new UnityException("The current card is a ArcCard, but currArcDeck is NULL.");
 
                     direct_progress = currArcDeck.currCard.isProgressLeftDirect;
                     currArcDeck.currCard = temp.progressLeft;
-                    print($"The {currArcDeck.title}'s new card will be: {currArcDeck}");
+                    //print($"The {currArcDeck.title}'s new card will be: {currArcDeck}");
                 }
 
                 HandleResult(currCard.resultLeft);
@@ -81,7 +94,8 @@ public class GameManager : MonoBehaviour
             if (currCard.die)
             {
 
-                print("YOU DIED");
+            // print("YOU DIED");
+                Load(MENU_SCENE);
             }
             else
             {
@@ -194,6 +208,7 @@ public class GameManager : MonoBehaviour
             }
             return false;
         }
+
         private void HandleResult(Result result)
         {
             UpdateStats(result.values);
@@ -204,6 +219,8 @@ public class GameManager : MonoBehaviour
             }
             else
             {
+                score += 1f;
+                scoreText.text = "Semana " + score.ToString();
                 //Desbloqueia Cartas
                 if (result.unlocksPack && result.unlockCardPack.locked)
                 {
