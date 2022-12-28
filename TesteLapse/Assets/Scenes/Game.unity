@@ -1229,7 +1229,7 @@ MonoBehaviour:
   cardRespRight: {fileID: 1437867031}
   dragScript: {fileID: 0}
   deathPack: {fileID: 11400000, guid: 46ccc5702d0a262459faaaee8781d213, type: 2}
-  statAnimSpeed: 0.005
+  statAnimSpeed: 0.05
   positiveColor: {r: 0.44139376, g: 0.8584906, b: 0.5153114, a: 1}
   negativeColor: {r: 1, g: 0.43867922, b: 0.43867922, a: 1}
 --- !u!4 &336672188

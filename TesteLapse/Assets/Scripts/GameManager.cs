@@ -315,7 +315,7 @@ public class GameManager : MonoBehaviour
             {
                 text.color = Color.Lerp(oldColor, newColor, t);
                 t += statAnimSpeed;
-                yield return new WaitForEndOfFrame();
+                yield return new WaitForFixedUpdate();
             } while (t <= 1f);
             text.color = newColor;
         }
@@ -362,7 +362,7 @@ public class GameManager : MonoBehaviour
             {
                 slider.value = Mathf.Lerp(lastValue, newValue, t);
                 t += statAnimSpeed;
-                yield return new WaitForEndOfFrame();
+                yield return new WaitForFixedUpdate();
             } while (t<=1f);
             slider.value = newValue;
             statsIcon.color = Color.white;
