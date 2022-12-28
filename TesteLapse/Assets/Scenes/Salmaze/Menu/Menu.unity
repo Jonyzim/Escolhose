@@ -155,7 +155,7 @@ MonoBehaviour:
   PainelConfig: {fileID: 1118865224}
   source: {fileID: 1524052807}
   clip: {fileID: 8300000, guid: 93ba42f2056707d41afdf9d6acc688e4, type: 3}
-  GameScene: 
+  GameScene: Jony
   sound_fx: 0
   music: 0
 --- !u!4 &20983624
@@ -206,8 +206,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 9, y: -4.736}
-  m_SizeDelta: {x: -28, y: -3}
+  m_AnchoredPosition: {x: 74.79727, y: -4.736}
+  m_SizeDelta: {x: 103.5945, y: -3}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &23647211
 MonoBehaviour:
@@ -242,7 +242,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: EFX
+  m_Text: Efeitos Sonoros
 --- !u!222 &23647212
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -286,8 +286,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 38.195, y: -23.145}
-  m_SizeDelta: {x: 130.1096, y: 46.2898}
+  m_AnchoredPosition: {x: -3.5170097, y: -25.72273}
+  m_SizeDelta: {x: 130.1096, y: 45.8342}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &24447422
 MonoBehaviour:
@@ -1231,8 +1231,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 34.712, y: 60.4}
-  m_SizeDelta: {x: 123.1439, y: 38.884}
+  m_AnchoredPosition: {x: -7, y: 57}
+  m_SizeDelta: {x: 123.1439, y: 38.5013}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1062371698
 MonoBehaviour:
@@ -1403,7 +1403,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Musga
+  m_Text: "M\xFAsica"
 --- !u!222 &1514916331
 CanvasRenderer:
   m_ObjectHideFlags: 0

@@ -11,8 +11,7 @@ public class MenuControler : MonoBehaviour
     [SerializeField] private string GameScene;
     public bool sound_fx;
     public bool music;
-        //[SerializeField] Animator ini;
-    
+
     void Start()
     {
         source.clip = clip;
@@ -29,7 +28,7 @@ public class MenuControler : MonoBehaviour
 
     public void StartGame()
     {
-        //SceneManager.LoadScene(GameScene);
+        SceneManager.LoadScene(GameScene);
         Debug.Log("Start Game");
     }
 
@@ -45,10 +44,12 @@ public class MenuControler : MonoBehaviour
     public void Music()
     {
         music = !music;
+        PlayerPrefs.SetInt("music", music?1:0);
     }
 
     public void SFX()
     {
         sound_fx = !sound_fx;
+        PlayerPrefs.SetInt("sound_fx", sound_fx?1:0);
     }
 }

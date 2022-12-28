@@ -7,12 +7,10 @@ public class Controledemusica : MonoBehaviour
     public AudioSource source;//Fonte
     public AudioClip clip;//Musica
     
-    public GameObject MenuManager;//MenuManager
-    
     // Start is called before the first frame update
     void Start()
     {
-        if (MenuManager.GetComponent<MenuControler>().music == true) {
+        if (PlayerPrefs.GetInt("foo")==1) {
               source.loop = true;
               source.clip = clip;
               source.volume = 0.3f;

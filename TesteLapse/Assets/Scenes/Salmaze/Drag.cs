@@ -28,6 +28,9 @@ public class Drag : MonoBehaviour, IPointerDownHandler, IBeginDragHandler, IEndD
 
     float exitX = 400f;
     
+    [SerializeField] AudioSource source;//Fonte
+    [SerializeField] AudioClip clip;//Efeito Sonoro
+    
     private void Start()
     {
         initialPos = _transform.anchoredPosition;
@@ -123,6 +126,11 @@ public class Drag : MonoBehaviour, IPointerDownHandler, IBeginDragHandler, IEndD
         Vector3 pos;
         do
         {
+            if (PlayerPrefs.GetInt("sound_fx")==1) {
+                source.clip = clip;
+                source.volume = 0.1f;
+                source.Play();
+            }
              pos = _transform.anchoredPosition;
             pos.x += animSpeed * dir;
             _transform.anchoredPosition = pos;
