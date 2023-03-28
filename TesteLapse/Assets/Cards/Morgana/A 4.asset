@@ -16,22 +16,23 @@ MonoBehaviour:
   image: {fileID: 0}
   character: {fileID: 11400000, guid: 2131332952936c3418eb91f393474825, type: 2}
   characterImage: 1
-  responseLeft: "Que voc\xEA viu um Kraken!"
+  die: 0
+  responseLeft: Vai ter ritual?
   resultLeft:
     values:
+    - -12
     - 0
-    - 0
-    - 12
+    - 16
     - 0
     nextCard: {fileID: 0}
     unlocksPack: 0
     unlockCardPack: {fileID: 0}
-  responseRight: "Que voc\xEA viu uma palestra sobre o c\xE2mbio do Guarani"
+  responseRight: Sou crente
   resultRight:
     values:
+    - 12
     - 0
-    - 8
-    - -8
+    - -16
     - 0
     nextCard: {fileID: 0}
     unlocksPack: 0

@@ -12,27 +12,29 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 730c4a9663f8de042a373f0198de5ce7, type: 3}
   m_Name: A 2
   m_EditorClassIdentifier: 
-  text: "O pr\xF3ximo trabalho n\xE3o ser\xE1 no Quartus"
+  text: "Sei que voc\xEA vai ter prova amanh\xE3, mas vou tocar no lual no Jardim
+    Secreto, espero voc\xEA l\xE1"
   image: {fileID: 0}
   character: {fileID: 11400000, guid: 2131332952936c3418eb91f393474825, type: 2}
   characterImage: 1
-  responseLeft: Ebaa
+  die: 0
+  responseLeft: Estarei te assistindo
   resultLeft:
     values:
-    - 20
     - 0
-    - 20
-    - 20
+    - -4
+    - 16
+    - -12
     nextCard: {fileID: 0}
     unlocksPack: 0
     unlockCardPack: {fileID: 0}
-  responseRight: Uhul
+  responseRight: "N\xE3o estudei nada ainda, mals :/"
   resultRight:
     values:
-    - 20
     - 0
-    - 20
-    - 20
+    - 4
+    - -16
+    - 12
     nextCard: {fileID: 0}
     unlocksPack: 0
     unlockCardPack: {fileID: 0}

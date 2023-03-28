@@ -12,27 +12,28 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 730c4a9663f8de042a373f0198de5ce7, type: 3}
   m_Name: A 5
   m_EditorClassIdentifier: 
-  text: Deixa  eu contar da vez que eu encontrei o Linus Torvalds andando de motoca
+  text: Hoje vai ter festinha?
   image: {fileID: 0}
   character: {fileID: 11400000, guid: 2131332952936c3418eb91f393474825, type: 2}
   characterImage: 1
-  responseLeft: Sair da sala
+  die: 0
+  responseLeft: "L\xE1 dentro do meu barraco?"
   resultLeft:
     values:
-    - 0
-    - 0
     - -12
-    - -4
+    - -16
+    - 20
+    - 0
     nextCard: {fileID: 0}
     unlocksPack: 0
     unlockCardPack: {fileID: 0}
-  responseRight: "Ouvir a hist\xF3ria"
+  responseRight: "Sei n\xE3o, t\xF4 quebrado"
   resultRight:
     values:
-    - 0
-    - 0
     - 12
-    - 4
+    - 16
+    - -20
+    - 0
     nextCard: {fileID: 0}
     unlocksPack: 0
     unlockCardPack: {fileID: 0}

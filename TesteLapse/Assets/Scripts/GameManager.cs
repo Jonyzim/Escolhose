@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.Mathematics;
 using UnityEngine;
 using UnityEngine.Serialization;
 using UnityEngine.UI;
@@ -29,6 +30,11 @@ public class GameManager : MonoBehaviour
     
     //Stats Values
     [SerializeField] private float[] stats=new float[statCount];
+
+    private float DifficultyScale()
+    {
+        return (float)0.25 * math.sqrt(score);
+    }
 
     // Stats UI
     [SerializeField] private Text scoreText;
@@ -247,7 +253,7 @@ public class GameManager : MonoBehaviour
         {
             for (int i = 0; i < statCount; i++)
             {
-                stats[i] += statSum[i];
+                stats[i] += DifficultyScale()*statSum[i];
                 stats[i] = Mathf.Max(stats[i], 0);
                 stats[i] = Mathf.Min(stats[i], 100);
             }

@@ -12,27 +12,28 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 730c4a9663f8de042a373f0198de5ce7, type: 3}
   m_Name: A 3
   m_EditorClassIdentifier: 
-  text: "Me deem uma aplica\xE7\xE3o de vetores linearmente independentes"
+  text: Vem comigo derrubar o governo
   image: {fileID: 0}
-  character: {fileID: 11400000, guid: af72f16c8c4872c43a1107a5caec78bf, type: 2}
+  character: {fileID: 11400000, guid: 2131332952936c3418eb91f393474825, type: 2}
   characterImage: 1
-  responseLeft: Em uma base
+  die: 0
+  responseLeft: "Sei n\xE3o, acho perigoso"
   resultLeft:
     values:
+    - 12
+    - -12
+    - -12
     - 0
-    - 0
-    - 0
-    - 20
     nextCard: {fileID: 0}
     unlocksPack: 0
     unlockCardPack: {fileID: 0}
-  responseRight: Nos dentes dos garfos do Bandeco
+  responseRight: "Eu vou aonde voc\xEA vai"
   resultRight:
     values:
+    - -12
+    - 12
     - 12
     - 0
-    - 8
-    - 16
     nextCard: {fileID: 0}
     unlocksPack: 0
     unlockCardPack: {fileID: 0}
