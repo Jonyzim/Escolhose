@@ -40,7 +40,8 @@ public class GameManager : MonoBehaviour
     [SerializeField] private Text scoreText;
     [SerializeField] private Slider[] sliders = new Slider[statCount];
     [SerializeField] private Transform[] statChange = new Transform[statCount];
-    
+    [SerializeField] private DeathMenu _deathMenu;
+
     // Card UI
     [SerializeField] private Image cardImage;
     [SerializeField] private Text cardText;
@@ -48,6 +49,7 @@ public class GameManager : MonoBehaviour
     [SerializeField] private Text cardRespLeft;
     [SerializeField] private Text cardRespRight;
     [SerializeField] Drag dragScript;
+    
     //Misc
     private System.Random _random = new System.Random();
     
@@ -73,7 +75,8 @@ public class GameManager : MonoBehaviour
         {
             if (currCard.die)
             {
-                //print("YOU DIED");
+                
+                print("YOU DIED");
                 Load(MENU_SCENE);
 
             }
@@ -132,6 +135,7 @@ public class GameManager : MonoBehaviour
         
         private void GetCard()
         {
+            
             //Obtains a ArcCard
             if ((IsNextCardArc() && GetArcCard()))
                 return;
@@ -139,6 +143,8 @@ public class GameManager : MonoBehaviour
             //Obtains a SimpleCard
             currArcDeck = null;
             GetSimpleCard();
+            
+            
         }
 
         private void GetSimpleCard()
@@ -222,6 +228,7 @@ public class GameManager : MonoBehaviour
             if (isDead)
             {
                 currCard = deathCard;
+                currCard.dieUnlocked = true;
             }
             else
             {
