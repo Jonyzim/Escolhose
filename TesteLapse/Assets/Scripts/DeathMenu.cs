@@ -30,11 +30,12 @@ public class DeathMenu : MonoBehaviour
             SetDeathView(deathCards[i], views[i]);
         }
         
-        transform.localPosition=new Vector3(0,80f,0);
+        transform.localPosition = new Vector3(0,80f,0);
     }
     
     private void SetDeathView(Card card, Transform view)
     {
+        print(card.text);
         if(card.dieUnlocked)
         {
             view.Find("Name").GetComponent<TMP_Text>().text = card.dieTitle;

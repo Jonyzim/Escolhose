@@ -75,7 +75,7 @@ public class GameManager : MonoBehaviour
         {
             if (currCard.die)
             {
-                currCard.dieUnlocked = true;
+                
                 print("YOU DIED");
                 Load(MENU_SCENE);
 
@@ -135,6 +135,7 @@ public class GameManager : MonoBehaviour
         
         private void GetCard()
         {
+            
             //Obtains a ArcCard
             if ((IsNextCardArc() && GetArcCard()))
                 return;
@@ -227,6 +228,7 @@ public class GameManager : MonoBehaviour
             if (isDead)
             {
                 currCard = deathCard;
+                currCard.dieUnlocked = true;
             }
             else
             {
