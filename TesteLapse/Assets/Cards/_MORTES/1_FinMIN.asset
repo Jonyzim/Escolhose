@@ -17,6 +17,9 @@ MonoBehaviour:
   character: {fileID: 0}
   characterImage: 0
   die: 1
+  dieUnlocked: 1
+  dieTitle: Negativado no Serasa
+  dieDescription: -R$6.000
   responseLeft: 
   resultLeft:
     values:
