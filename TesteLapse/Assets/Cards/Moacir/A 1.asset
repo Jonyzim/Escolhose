@@ -12,10 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 730c4a9663f8de042a373f0198de5ce7, type: 3}
   m_Name: A 1
   m_EditorClassIdentifier: 
-  text: "Voc\xEA ouvir nirvana?"
+  text: "Voc\xEA ouvir Nirvana?"
   image: {fileID: 0}
   character: {fileID: 11400000, guid: 08312db8b7fa7444c8577592bee97de7, type: 2}
   characterImage: 1
+  die: 0
   responseLeft: "Sim! Eles s\xE3o brabos"
   resultLeft:
     values:

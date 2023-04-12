@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0ff8deac57990e74ab9f39cd9828f9c5, type: 3}
+  m_Name: a8
+  m_EditorClassIdentifier: 
+  text: "Ent\xE3o faz o trabalho comigo!"
+  image: {fileID: 21300000, guid: 689e15a6c9d0afe45a869e12af00f3fe, type: 3}
+  character: {fileID: 11400000, guid: 5e98d99001f69e345bc4f9d7133a12f5, type: 2}
+  characterImage: 1
+  die: 0
+  responseLeft: "Como voc\xEA quiser"
+  resultLeft:
+    values:
+    - 0
+    - 0
+    - 4
+    - -12
+    nextCard: {fileID: 0}
+    unlocksPack: 0
+    unlockCardPack: {fileID: 0}
+  responseRight: Mas nem morto!
+  resultRight:
+    values:
+    - 0
+    - 0
+    - -12
+    - 20
+    nextCard: {fileID: 0}
+    unlocksPack: 0
+    unlockCardPack: {fileID: 0}
+  isProgressLeftDirect: 1
+  progressLeft: {fileID: 11400000, guid: 89ce97561ce5e1e4f9452e85a51f4c69, type: 2}
+  isProgressRightDirect: 1
+  progressRight: {fileID: 11400000, guid: d0fd8fede3090774a99707525804c5cc, type: 2}

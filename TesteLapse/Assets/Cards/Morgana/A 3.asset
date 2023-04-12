@@ -27,7 +27,7 @@ MonoBehaviour:
     nextCard: {fileID: 0}
     unlocksPack: 0
     unlockCardPack: {fileID: 0}
-  responseRight: "Eu vou aonde voc\xEA vai"
+  responseRight: Onde ce for eu vou
   resultRight:
     values:
     - -12

@@ -16,6 +16,7 @@ MonoBehaviour:
   image: {fileID: 0}
   character: {fileID: 11400000, guid: 08312db8b7fa7444c8577592bee97de7, type: 2}
   characterImage: 1
+  die: 0
   responseLeft: "Tamb\xE9m gostar voc\xEA"
   resultLeft:
     values:
@@ -26,7 +27,7 @@ MonoBehaviour:
     nextCard: {fileID: 0}
     unlocksPack: 0
     unlockCardPack: {fileID: 0}
-  responseRight: "Tamb\xE9m gosto de mim"
+  responseRight: "Ah, valeu, eu tamb\xE9m gosto de mim"
   resultRight:
     values:
     - 12

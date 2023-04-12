@@ -12,10 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 730c4a9663f8de042a373f0198de5ce7, type: 3}
   m_Name: A 1
   m_EditorClassIdentifier: 
-  text: "Tu j\xE1 viu o anime Neon Apocalipsis Catolion?"
+  text: "Tu j\xE1 viu o anime Neon Apocalipsis Catolicon?"
   image: {fileID: 0}
   character: {fileID: 11400000, guid: 83293f7bd57c4d24584c7d486fc61c49, type: 2}
   characterImage: 1
+  die: 0
   responseLeft: "J\xE1 vi! \xC9 muito bom mesmo"
   resultLeft:
     values:

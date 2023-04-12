@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0ff8deac57990e74ab9f39cd9828f9c5, type: 3}
+  m_Name: M4
+  m_EditorClassIdentifier: 
+  text: "Ainda tem vaga no nosso grupo, Chicletinho... N\xE3o quer sair desse a\xED
+    da esquisitinha?"
+  image: {fileID: 21300000, guid: 3133a72b12188ac45a3cc6e459fab4a6, type: 3}
+  character: {fileID: 11400000, guid: 2131332952936c3418eb91f393474825, type: 2}
+  characterImage: 1
+  die: 0
+  responseLeft: Ah, acho que vou passar a perna nela
+  resultLeft:
+    values:
+    - 8
+    - 0
+    - 4
+    - 12
+    nextCard: {fileID: 0}
+    unlocksPack: 0
+    unlockCardPack: {fileID: 0}
+  responseRight: "Mas \xE9 que a sub-rotina t\xE1 quase linear\xEDtmica"
+  resultRight:
+    values:
+    - -4
+    - 0
+    - -4
+    - -4
+    nextCard: {fileID: 0}
+    unlocksPack: 0
+    unlockCardPack: {fileID: 0}
+  isProgressLeftDirect: 0
+  progressLeft: {fileID: 11400000, guid: ed555e85e5938db4fb605a482f16b853, type: 2}
+  isProgressRightDirect: 0
+  progressRight: {fileID: 11400000, guid: c9a45144ee100b24b90df294ce321a89, type: 2}

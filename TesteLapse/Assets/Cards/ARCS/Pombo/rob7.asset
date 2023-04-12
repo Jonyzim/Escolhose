@@ -16,10 +16,11 @@ MonoBehaviour:
   image: {fileID: 0}
   character: {fileID: 11400000, guid: 47ff61e7007e0ef4fa08617de992d515, type: 2}
   characterImage: 1
+  die: 0
   responseLeft: 
   resultLeft:
     values:
-    - 0
+    - -4
     - 0
     - 0
     - 0
@@ -29,7 +30,7 @@ MonoBehaviour:
   responseRight: 
   resultRight:
     values:
-    - 0
+    - -4
     - 0
     - 0
     - 0

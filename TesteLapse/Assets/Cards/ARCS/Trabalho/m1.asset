@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0ff8deac57990e74ab9f39cd9828f9c5, type: 3}
+  m_Name: m1
+  m_EditorClassIdentifier: 
+  text: "Cara, acho melhor voc\xEA ir falar com a Antonietta"
+  image: {fileID: 21300000, guid: 8115c2d1716ef564ea32c69fca523fe5, type: 3}
+  character: {fileID: 0}
+  characterImage: 1
+  die: 0
+  responseLeft: Por que?
+  resultLeft:
+    values:
+    - 0
+    - 0
+    - 4
+    - 0
+    nextCard: {fileID: 0}
+    unlocksPack: 0
+    unlockCardPack: {fileID: 0}
+  responseRight: "Acho que n\xE3o vou n\xE3o, \xE9 frescura dela"
+  resultRight:
+    values:
+    - 16
+    - 0
+    - -4
+    - 0
+    nextCard: {fileID: 0}
+    unlocksPack: 0
+    unlockCardPack: {fileID: 0}
+  isProgressLeftDirect: 1
+  progressLeft: {fileID: 11400000, guid: 4801cac233586d743a81067ff5f38302, type: 2}
+  isProgressRightDirect: 1
+  progressRight: {fileID: 11400000, guid: ff22a3ae39c947c4abce6ef30c6bc8e0, type: 2}

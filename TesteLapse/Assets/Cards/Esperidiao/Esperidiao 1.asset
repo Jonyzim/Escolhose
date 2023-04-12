@@ -17,7 +17,8 @@ MonoBehaviour:
   image: {fileID: 0}
   character: {fileID: 11400000, guid: 45a43cc9b5e45754d8470696e2eaea78, type: 2}
   characterImage: 1
-  responseLeft: Deixa de ser fresco seu arrombado
+  die: 0
+  responseLeft: Deixa de ser fresco, seu arr******
   resultLeft:
     values:
     - 20

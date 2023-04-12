@@ -16,12 +16,13 @@ MonoBehaviour:
   image: {fileID: 0}
   character: {fileID: 11400000, guid: 47ff61e7007e0ef4fa08617de992d515, type: 2}
   characterImage: 1
+  die: 0
   responseLeft: "Mas tamb\xE9m, naquele chiqueiro que tu trabalha"
   resultLeft:
     values:
+    - -4
     - 0
-    - 0
-    - 0
+    - -20
     - 0
     nextCard: {fileID: 0}
     unlocksPack: 0
@@ -31,7 +32,7 @@ MonoBehaviour:
     values:
     - 0
     - 0
-    - 0
+    - 8
     - 0
     nextCard: {fileID: 0}
     unlocksPack: 0

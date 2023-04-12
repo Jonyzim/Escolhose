@@ -16,12 +16,13 @@ MonoBehaviour:
   image: {fileID: 0}
   character: {fileID: 11400000, guid: 5e98d99001f69e345bc4f9d7133a12f5, type: 2}
   characterImage: 1
+  die: 0
   responseLeft: "Ah, t\xE1 bom"
   resultLeft:
     values:
+    - 4
     - 0
-    - 0
-    - 0
+    - 4
     - 0
     nextCard: {fileID: 0}
     unlocksPack: 0
@@ -29,9 +30,9 @@ MonoBehaviour:
   responseRight: Ah, me deixa em paz
   resultRight:
     values:
+    - -4
     - 0
-    - 0
-    - 0
+    - -4
     - 0
     nextCard: {fileID: 0}
     unlocksPack: 0

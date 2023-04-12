@@ -16,6 +16,7 @@ MonoBehaviour:
   image: {fileID: 0}
   character: {fileID: 11400000, guid: f4c60ecb218ab614089e6cd7bb3f866d, type: 2}
   characterImage: 1
+  die: 0
   responseLeft: "Claro, v\xF3! Eu seguro suas compras"
   resultLeft:
     values:
@@ -26,7 +27,7 @@ MonoBehaviour:
     nextCard: {fileID: 0}
     unlocksPack: 0
     unlockCardPack: {fileID: 0}
-  responseRight: Vou ter prova...
+  responseRight: "Vou ter prova amanh\xE3 e tenho que estudar"
   resultRight:
     values:
     - 0

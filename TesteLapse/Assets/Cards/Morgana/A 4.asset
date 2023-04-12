@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 730c4a9663f8de042a373f0198de5ce7, type: 3}
   m_Name: A 4
   m_EditorClassIdentifier: 
-  text: Deixa eu conta da vez que...
+  text: Topa ir em um trem abandonado comigo essa noite? Vai ser macabro!
   image: {fileID: 0}
   character: {fileID: 11400000, guid: 2131332952936c3418eb91f393474825, type: 2}
   characterImage: 1

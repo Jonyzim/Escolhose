@@ -16,23 +16,24 @@ MonoBehaviour:
   image: {fileID: 0}
   character: {fileID: 0}
   characterImage: 1
+  die: 0
   responseLeft: 
   resultLeft:
     values:
+    - -4
     - 0
     - 0
-    - 0
-    - 0
+    - -4
     nextCard: {fileID: 0}
     unlocksPack: 0
     unlockCardPack: {fileID: 0}
   responseRight: 
   resultRight:
     values:
+    - -4
     - 0
     - 0
-    - 0
-    - 0
+    - -4
     nextCard: {fileID: 0}
     unlocksPack: 0
     unlockCardPack: {fileID: 0}

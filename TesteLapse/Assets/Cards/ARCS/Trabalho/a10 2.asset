@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0ff8deac57990e74ab9f39cd9828f9c5, type: 3}
+  m_Name: a10 2
+  m_EditorClassIdentifier: 
+  text: Todo dia!
+  image: {fileID: 21300000, guid: caf6510cb74825546aff33c0da595be2, type: 3}
+  character: {fileID: 11400000, guid: 5e98d99001f69e345bc4f9d7133a12f5, type: 2}
+  characterImage: 1
+  die: 0
+  responseLeft: Sim, minha Antonietta-chan!
+  resultLeft:
+    values:
+    - -4
+    - -16
+    - -4
+    - 0
+    nextCard: {fileID: 0}
+    unlocksPack: 0
+    unlockCardPack: {fileID: 0}
+  responseRight: "Dinheiro n\xE3o d\xE1 em \xE1rvore!"
+  resultRight:
+    values:
+    - 16
+    - 24
+    - 12
+    - 0
+    nextCard: {fileID: 0}
+    unlocksPack: 0
+    unlockCardPack: {fileID: 0}
+  isProgressLeftDirect: 1
+  progressLeft: {fileID: 11400000, guid: 457951b121990b74a88934c13fdbcf89, type: 2}
+  isProgressRightDirect: 1
+  progressRight: {fileID: 11400000, guid: d0fd8fede3090774a99707525804c5cc, type: 2}

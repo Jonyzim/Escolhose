@@ -12,10 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 730c4a9663f8de042a373f0198de5ce7, type: 3}
   m_Name: A 5
   m_EditorClassIdentifier: 
-  text: Deixa  eu contar da vez que eu encontrei o Linus Torvalds andando de motoca
+  text: Deixa eu contar da vez que eu encontrei o Linus Torvalds andando de motoca
   image: {fileID: 0}
   character: {fileID: 11400000, guid: af72f16c8c4872c43a1107a5caec78bf, type: 2}
   characterImage: 1
+  die: 0
   responseLeft: Sair da sala
   resultLeft:
     values:

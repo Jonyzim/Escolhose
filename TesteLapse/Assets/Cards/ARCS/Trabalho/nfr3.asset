@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0ff8deac57990e74ab9f39cd9828f9c5, type: 3}
+  m_Name: nfr3
+  m_EditorClassIdentifier: 
+  text: "Voc\xEA \xE9 morto pela Antonietta. Ela vai atr\xE1s da Morgana"
+  image: {fileID: 0}
+  character: {fileID: 0}
+  characterImage: 1
+  die: 0
+  responseLeft: 
+  resultLeft:
+    values:
+    - 0
+    - 0
+    - 0
+    - 0
+    nextCard: {fileID: 0}
+    unlocksPack: 0
+    unlockCardPack: {fileID: 0}
+  responseRight: 
+  resultRight:
+    values:
+    - 0
+    - 0
+    - 0
+    - 0
+    nextCard: {fileID: 0}
+    unlocksPack: 0
+    unlockCardPack: {fileID: 0}
+  isProgressLeftDirect: 1
+  progressLeft: {fileID: 0}
+  isProgressRightDirect: 1
+  progressRight: {fileID: 0}

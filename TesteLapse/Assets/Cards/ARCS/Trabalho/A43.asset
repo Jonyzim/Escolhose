@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0ff8deac57990e74ab9f39cd9828f9c5, type: 3}
+  m_Name: A43
+  m_EditorClassIdentifier: 
+  text: "Ah ent\xE3o, o Miltinho vai pesquisar sobre o malware, eu vou falar sobre
+    os impactos sociais deles e voc\xEA vai escrever uma sub-rotina que decripta
+    as chaves privadas de acordo com um hash em um tempo linear\xEDtmico no caso
+    m\xE9dio"
+  image: {fileID: 21300000, guid: 88dbd862abb76e44b9875fa10ff7b96c, type: 3}
+  character: {fileID: 11400000, guid: 5e98d99001f69e345bc4f9d7133a12f5, type: 2}
+  characterImage: 1
+  die: 0
+  responseLeft: "Para que fazer um antiv\xEDrus? \xC9 s\xF3 usar Linux"
+  resultLeft:
+    values:
+    - 16
+    - 0
+    - 0
+    - 12
+    nextCard: {fileID: 0}
+    unlocksPack: 0
+    unlockCardPack: {fileID: 0}
+  responseRight: "Precisa mesmo ser linear\xEDtmico?"
+  resultRight:
+    values:
+    - 8
+    - 0
+    - 0
+    - -4
+    nextCard: {fileID: 0}
+    unlocksPack: 0
+    unlockCardPack: {fileID: 0}
+  isProgressLeftDirect: 0
+  progressLeft: {fileID: 11400000, guid: 239b6ec6ed4a57547ba5ac4385cf51c8, type: 2}
+  isProgressRightDirect: 0
+  progressRight: {fileID: 11400000, guid: 239b6ec6ed4a57547ba5ac4385cf51c8, type: 2}

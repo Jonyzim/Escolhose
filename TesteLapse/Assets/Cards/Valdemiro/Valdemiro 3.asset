@@ -16,7 +16,8 @@ MonoBehaviour:
   image: {fileID: 0}
   character: {fileID: 11400000, guid: f0ba9e706e21b5a41a345f4f29418e92, type: 2}
   characterImage: 1
-  responseLeft: "O Fof\xE3o n\xE3o permitiria"
+  die: 0
+  responseLeft: "O Xand\xE3o n\xE3o permitiria!"
   resultLeft:
     values:
     - -4

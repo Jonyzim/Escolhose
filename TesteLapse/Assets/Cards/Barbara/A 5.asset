@@ -16,6 +16,7 @@ MonoBehaviour:
   image: {fileID: 0}
   character: {fileID: 11400000, guid: b787071e6a2ea3f49b5be054cfe1adc3, type: 2}
   characterImage: 1
+  die: 0
   responseLeft: "Ent\xE3o n\xE3o v\xE1 mais pra academia e fica mais tempo comigo,
     minha flor"
   resultLeft:
@@ -27,7 +28,7 @@ MonoBehaviour:
     nextCard: {fileID: 0}
     unlocksPack: 0
     unlockCardPack: {fileID: 0}
-  responseRight: Vem comigo em uma noite romantica no spa, meu docinho
+  responseRight: "Vem comigo em uma noite rom\xE2ntica no spa, meu docinho"
   resultRight:
     values:
     - 12

@@ -16,12 +16,13 @@ MonoBehaviour:
   image: {fileID: 0}
   character: {fileID: 11400000, guid: 47ff61e7007e0ef4fa08617de992d515, type: 2}
   characterImage: 1
+  die: 0
   responseLeft: 
   resultLeft:
     values:
+    - 30
     - 0
-    - 0
-    - 0
+    - 30
     - 0
     nextCard: {fileID: 0}
     unlocksPack: 0
@@ -29,9 +30,9 @@ MonoBehaviour:
   responseRight: 
   resultRight:
     values:
+    - 30
     - 0
-    - 0
-    - 0
+    - 30
     - 0
     nextCard: {fileID: 0}
     unlocksPack: 0

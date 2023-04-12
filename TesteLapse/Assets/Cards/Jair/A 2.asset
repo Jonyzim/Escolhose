@@ -12,10 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 730c4a9663f8de042a373f0198de5ce7, type: 3}
   m_Name: A 2
   m_EditorClassIdentifier: 
-  text: "Vamos resolver a conta que est\xE1 no quadro. Uma vez ra\xEDz de cinco?"
+  text: "Vamos resolver essa conta passo a passo. Uma vez ra\xEDz de cinco?"
   image: {fileID: 0}
   character: {fileID: 11400000, guid: 6dc0e3d9668a0714b9a7b4721a5bbb93, type: 2}
   characterImage: 1
+  die: 0
   responseLeft: "Ra\xEDz de cinco"
   resultLeft:
     values:

@@ -17,10 +17,11 @@ MonoBehaviour:
   image: {fileID: 0}
   character: {fileID: 0}
   characterImage: 0
+  die: 0
   responseLeft: 
   resultLeft:
     values:
-    - 0
+    - 40
     - 0
     - 0
     - 0
@@ -30,7 +31,7 @@ MonoBehaviour:
   responseRight: 
   resultRight:
     values:
-    - 0
+    - 40
     - 0
     - 0
     - 0

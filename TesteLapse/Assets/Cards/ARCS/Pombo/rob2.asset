@@ -16,23 +16,24 @@ MonoBehaviour:
   image: {fileID: 0}
   character: {fileID: 11400000, guid: 47ff61e7007e0ef4fa08617de992d515, type: 2}
   characterImage: 1
+  die: 0
   responseLeft: "Ah, \xE9 que o governo t\xEAm sido muito competente"
   resultLeft:
     values:
+    - -8
     - 0
     - 0
-    - 0
-    - 0
+    - -16
     nextCard: {fileID: 0}
     unlocksPack: 0
     unlockCardPack: {fileID: 0}
   responseRight: "Um frango com esse pre\xE7o!?"
   resultRight:
     values:
+    - 4
     - 0
-    - 0
-    - 0
-    - 0
+    - 8
+    - 4
     nextCard: {fileID: 0}
     unlocksPack: 0
     unlockCardPack: {fileID: 0}

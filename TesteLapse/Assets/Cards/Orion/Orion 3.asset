@@ -12,11 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 730c4a9663f8de042a373f0198de5ce7, type: 3}
   m_Name: Orion 3
   m_EditorClassIdentifier: 
-  text: "\xD3rion lambe o seu p\xE9"
-  image: {fileID: 21300000, guid: 6ace8e78bdae83c4d9d0fe3c2df491c8, type: 3}
-  character: {fileID: 11400000, guid: 6263a9b4aa24167429197c25b9e2ed5b, type: 2}
+  text: "Se voc\xEA diz isso para um cachorro, n\xE3o merece jogar esse jogo"
+  image: {fileID: 0}
+  character: {fileID: 0}
   characterImage: 1
-  responseLeft: "\xD3hh que fofinho"
+  die: 1
+  responseLeft: 
   resultLeft:
     values:
     - 16
@@ -26,13 +27,13 @@ MonoBehaviour:
     nextCard: {fileID: 0}
     unlocksPack: 0
     unlockCardPack: {fileID: 0}
-  responseRight: Vaza daqui cachorro fedido
+  responseRight: 
   resultRight:
     values:
-    - -100
-    - -100
-    - -100
-    - -100
-    nextCard: {fileID: 0}
+    - 8
+    - 0
+    - -8
+    - 0
+    nextCard: {fileID: 11400000, guid: 9e2359edcf2de1043b8b01cb23a0575b, type: 2}
     unlocksPack: 0
     unlockCardPack: {fileID: 0}

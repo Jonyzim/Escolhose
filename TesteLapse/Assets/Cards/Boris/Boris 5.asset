@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 730c4a9663f8de042a373f0198de5ce7, type: 3}
+  m_Name: Boris 5
+  m_EditorClassIdentifier: 
+  text: "O ch\xE1 \xE9 muito forte; voc\xEA transcende e reencarna como um esquilo"
+  image: {fileID: 0}
+  character: {fileID: 11400000, guid: 66cc327adda04d0468aea69d91bcb739, type: 2}
+  characterImage: 1
+  die: 1
+  responseLeft: 
+  resultLeft:
+    values:
+    - 20
+    - 0
+    - 12
+    - -20
+    nextCard: {fileID: 0}
+    unlocksPack: 0
+    unlockCardPack: {fileID: 0}
+  responseRight: 
+  resultRight:
+    values:
+    - -20
+    - 0
+    - -12
+    - 20
+    nextCard: {fileID: 0}
+    unlocksPack: 0
+    unlockCardPack: {fileID: 0}

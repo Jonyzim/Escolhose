@@ -12,26 +12,27 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 730c4a9663f8de042a373f0198de5ce7, type: 3}
   m_Name: A 3
   m_EditorClassIdentifier: 
-  text: "Vi que ele te incomodava, ent\xE3o dei um jeitinho nele pra voc\xEA ^^"
+  text: "Tava aqui pensando, o que voc\xEA acha do Neon Apocalipsis Catilicon?"
   image: {fileID: 0}
   character: {fileID: 11400000, guid: 5e98d99001f69e345bc4f9d7133a12f5, type: 2}
   characterImage: 1
-  responseLeft: "O que voc\xEA fez?!"
+  die: 0
+  responseLeft: Acho daora
   resultLeft:
     values:
+    - -8
     - -12
-    - 0
-    - -20
+    - 16
     - 0
     nextCard: {fileID: 0}
     unlocksPack: 0
     unlockCardPack: {fileID: 0}
-  responseRight: Obrigado, ele merecia
+  responseRight: "Eu prefiro a vers\xE3o live action"
   resultRight:
     values:
-    - -12
     - 0
-    - 20
+    - 4
+    - -30
     - 0
     nextCard: {fileID: 0}
     unlocksPack: 0

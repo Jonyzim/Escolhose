@@ -12,10 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 730c4a9663f8de042a373f0198de5ce7, type: 3}
   m_Name: Valdemiro 1
   m_EditorClassIdentifier: 
-  text: "Qual dos metais voc\xEA acha mais importante?"
+  text: "Qual voc\xEA acha que ser\xE1 a pauta principal do debate de hoje?"
   image: {fileID: 0}
   character: {fileID: 11400000, guid: f0ba9e706e21b5a41a345f4f29418e92, type: 2}
   characterImage: 1
+  die: 0
   responseLeft: "Ni\xF3bio"
   resultLeft:
     values:

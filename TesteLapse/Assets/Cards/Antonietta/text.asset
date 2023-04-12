@@ -16,6 +16,7 @@ MonoBehaviour:
   image: {fileID: 0}
   character: {fileID: 0}
   characterImage: 0
+  die: 1
   responseLeft: 
   resultLeft:
     values:

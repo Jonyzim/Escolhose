@@ -16,12 +16,13 @@ MonoBehaviour:
   image: {fileID: 0}
   character: {fileID: 11400000, guid: 66cc327adda04d0468aea69d91bcb739, type: 2}
   characterImage: 1
+  die: 0
   responseLeft: Conhece o Mario?
   resultLeft:
     values:
     - 0
     - 0
-    - 0
+    - -12
     - 0
     nextCard: {fileID: 11400000, guid: dadecd7bfc67aa744b820822be4b41be, type: 2}
     unlocksPack: 0
@@ -31,8 +32,8 @@ MonoBehaviour:
     values:
     - 0
     - 0
+    - 20
     - 0
-    - 0
-    nextCard: {fileID: 0}
+    nextCard: {fileID: 11400000, guid: 9f70c916ee8c6c14796602e0e60a96d8, type: 2}
     unlocksPack: 0
     unlockCardPack: {fileID: 0}

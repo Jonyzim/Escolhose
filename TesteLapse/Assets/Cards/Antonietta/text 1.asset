@@ -12,26 +12,27 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 730c4a9663f8de042a373f0198de5ce7, type: 3}
   m_Name: text 1
   m_EditorClassIdentifier: 
-  text: Antonieta te olha com um olhar assustador
+  text: "Ent\xE3o t\xE1 bom, esquisit\xE2o!"
   image: {fileID: 0}
   character: {fileID: 0}
   characterImage: 0
-  responseLeft: 
+  die: 0
+  responseLeft: ...
   resultLeft:
     values:
     - 0
     - 0
-    - 0
+    - -12
     - 0
     nextCard: {fileID: 0}
     unlocksPack: 0
     unlockCardPack: {fileID: 0}
-  responseRight: 
+  responseRight: "\U0001F448\U0001F448\U0001F448:/"
   resultRight:
     values:
     - 0
     - 0
-    - 0
+    - -12
     - 0
     nextCard: {fileID: 0}
     unlocksPack: 0

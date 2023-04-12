@@ -16,12 +16,13 @@ MonoBehaviour:
   image: {fileID: 0}
   character: {fileID: 11400000, guid: 47ff61e7007e0ef4fa08617de992d515, type: 2}
   characterImage: 1
+  die: 0
   responseLeft: "Eu acho que \xE9 coisa da sua cabe\xE7a"
   resultLeft:
     values:
+    - -4
     - 0
-    - 0
-    - 0
+    - -4
     - 0
     nextCard: {fileID: 0}
     unlocksPack: 0
@@ -29,9 +30,9 @@ MonoBehaviour:
   responseRight: Ih, o gosto tava esquisito mesmo
   resultRight:
     values:
+    - 4
     - 0
-    - 0
-    - 0
+    - 4
     - 0
     nextCard: {fileID: 0}
     unlocksPack: 0
