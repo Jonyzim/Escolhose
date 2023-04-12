@@ -13,13 +13,9 @@ MonoBehaviour:
   m_Name: 3_EstMAX
   m_EditorClassIdentifier: 
   text: "GENIO INCONTROL\xC1VEL, voc\xEA vira um supervil\xE3o e domina o mundo com
-<<<<<<< HEAD
     seu mecha"
   image: {fileID: 21300000, guid: 27a4092e863e28746b9ad3d91e38448b, type: 3}
-=======
-    um mecha"
-  image: {fileID: 21300000, guid: 5622ff11237605448bea2e95681b62a5, type: 3}
->>>>>>> e8e932f2cd66f11a3645f60e035a2b37e6538577
+
   character: {fileID: 0}
   characterImage: 0
   die: 1

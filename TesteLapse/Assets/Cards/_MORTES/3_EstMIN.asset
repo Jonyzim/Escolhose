@@ -12,13 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 730c4a9663f8de042a373f0198de5ce7, type: 3}
   m_Name: 3_EstMIN
   m_EditorClassIdentifier: 
-<<<<<<< HEAD
   text: "Sua vida acad\xEAmica vai de mal a pior, voc\xEA vai para a Federupa"
   image: {fileID: 21300000, guid: 27a4092e863e28746b9ad3d91e38448b, type: 3}
-=======
-  text: "ESTUDO NO M\xCDNIMO, voc\xEA vai para a federupa"
-  image: {fileID: 21300000, guid: 5622ff11237605448bea2e95681b62a5, type: 3}
->>>>>>> e8e932f2cd66f11a3645f60e035a2b37e6538577
   character: {fileID: 0}
   characterImage: 0
   die: 1

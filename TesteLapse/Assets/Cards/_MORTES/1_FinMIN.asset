@@ -12,14 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 730c4a9663f8de042a373f0198de5ce7, type: 3}
   m_Name: 1_FinMIN
   m_EditorClassIdentifier: 
-<<<<<<< HEAD
   text: "Infelizmente o seu saldo banc\xE1rio est\xE1 deplor\xE1vel. Voc\xEA fica
     com o nome sujo no Serasa."
   image: {fileID: 21300000, guid: 27a4092e863e28746b9ad3d91e38448b, type: 3}
-=======
-  text: "PERDEU TUDO! Voc\xEA fica negativado no Serasa"
-  image: {fileID: 21300000, guid: 1ae0978ab97826347aa6db52214fcde1, type: 3}
->>>>>>> e8e932f2cd66f11a3645f60e035a2b37e6538577
   character: {fileID: 0}
   characterImage: 0
   die: 1

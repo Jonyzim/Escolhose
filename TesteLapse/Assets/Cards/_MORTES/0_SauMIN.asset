@@ -12,14 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 730c4a9663f8de042a373f0198de5ce7, type: 3}
   m_Name: 0_SauMIN
   m_EditorClassIdentifier: 
-<<<<<<< HEAD
   text: "Sua sa\xFAde mental est\xE1 muito baixa. Depressivo, voc\xEA vira o emo
     quieto do fundo da sala."
   image: {fileID: 21300000, guid: 27a4092e863e28746b9ad3d91e38448b, type: 3}
-=======
-  text: "PERDEU!! Acabou com sua sa\xFAde mental, voc\xEA vira emo."
-  image: {fileID: 21300000, guid: bbe8e99ea317d484fb6b2aa9db18bd91, type: 3}
->>>>>>> e8e932f2cd66f11a3645f60e035a2b37e6538577
   character: {fileID: 0}
   characterImage: 0
   die: 1
