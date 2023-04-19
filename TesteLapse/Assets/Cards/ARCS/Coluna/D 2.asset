@@ -16,12 +16,16 @@ MonoBehaviour:
   image: {fileID: 0}
   character: {fileID: 11400000, guid: 2131332952936c3418eb91f393474825, type: 2}
   characterImage: 1
+  die: 0
+  dieUnlocked: 0
+  dieTitle: 
+  dieDescription: 
   responseLeft: "Ah, aquelas coisas, n\xE9"
   resultLeft:
     values:
     - 0
     - 0
-    - 0
+    - 4
     - 0
     nextCard: {fileID: 0}
     unlocksPack: 0
@@ -29,9 +33,9 @@ MonoBehaviour:
   responseRight: De mal a pior
   resultRight:
     values:
+    - -4
     - 0
-    - 0
-    - 0
+    - 4
     - 0
     nextCard: {fileID: 0}
     unlocksPack: 0

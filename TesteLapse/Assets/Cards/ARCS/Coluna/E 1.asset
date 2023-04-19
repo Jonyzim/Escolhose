@@ -16,12 +16,16 @@ MonoBehaviour:
   image: {fileID: 0}
   character: {fileID: 11400000, guid: b787071e6a2ea3f49b5be054cfe1adc3, type: 2}
   characterImage: 1
+  die: 0
+  dieUnlocked: 0
+  dieTitle: 
+  dieDescription: 
   responseLeft: "Sim, a minha coluna t\xE1 melhor"
   resultLeft:
     values:
-    - 0
-    - 0
-    - 0
+    - 4
+    - -8
+    - 4
     - 0
     nextCard: {fileID: 0}
     unlocksPack: 0
@@ -30,8 +34,8 @@ MonoBehaviour:
   resultRight:
     values:
     - 0
-    - 0
-    - 0
+    - -8
+    - 4
     - 0
     nextCard: {fileID: 0}
     unlocksPack: 0

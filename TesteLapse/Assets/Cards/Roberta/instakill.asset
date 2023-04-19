@@ -14,9 +14,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   text: "A \"massagem\" vai muito bem e voc\xEA e a Roberta se apaixonam. Voc\xEAs
     se casam. Voc\xEA tranca a faculdade e ela te sustenta para sempre"
-  image: {fileID: 0}
+  image: {fileID: 21300000, guid: 79b8bf6ea74948345a9f4b72bc07e082, type: 3}
   character: {fileID: 0}
-  characterImage: 1
+  characterImage: 0
+  die: 1
+  dieUnlocked: 0
+  dieTitle: Todo dia ela faz tudo sempre igual
+  dieDescription: "E me beija com a boca de feij\xE3o..."
   responseLeft: 
   resultLeft:
     values:

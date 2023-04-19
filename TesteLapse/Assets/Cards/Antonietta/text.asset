@@ -12,11 +12,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 730c4a9663f8de042a373f0198de5ce7, type: 3}
   m_Name: text
   m_EditorClassIdentifier: 
-  text: "Os bolinhos estavam envenedados, voc\xEA se sente tonto mas se recupera"
-  image: {fileID: 0}
+  text: "Os bolinhos tinham son\xEDfero. Voc\xEA acorda em cativeiro e nunca mais
+    v\xEA a luz do sol."
+  image: {fileID: 21300000, guid: 5d6609880e7dbc74096c9869f9ab6c37, type: 3}
   character: {fileID: 0}
   characterImage: 0
   die: 1
+  dieUnlocked: 0
+  dieTitle: The cake is a lie
+  dieDescription: Sequestrado pela yandere
   responseLeft: 
   resultLeft:
     values:

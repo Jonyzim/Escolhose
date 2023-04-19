@@ -16,10 +16,14 @@ MonoBehaviour:
   image: {fileID: 0}
   character: {fileID: 11400000, guid: 2131332952936c3418eb91f393474825, type: 2}
   characterImage: 1
+  die: 0
+  dieUnlocked: 0
+  dieTitle: 
+  dieDescription: 
   responseLeft: "T\xE1 indo.. T\xF4 fazendo umas caminhadas"
   resultLeft:
     values:
-    - 0
+    - 4
     - 0
     - 0
     - 0
@@ -31,7 +35,7 @@ MonoBehaviour:
     values:
     - 0
     - 0
-    - 0
+    - 8
     - 0
     nextCard: {fileID: 0}
     unlocksPack: 0

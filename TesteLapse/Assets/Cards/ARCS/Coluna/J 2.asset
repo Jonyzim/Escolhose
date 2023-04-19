@@ -17,23 +17,27 @@ MonoBehaviour:
   image: {fileID: 0}
   character: {fileID: 11400000, guid: 5aeda41329b374741b9f206375c6016a, type: 2}
   characterImage: 1
+  die: 0
+  dieUnlocked: 0
+  dieTitle: 
+  dieDescription: 
   responseLeft: "Ela tem que deixar de ser t\xE3o ondulat\xF3ria"
   resultLeft:
     values:
+    - -4
     - 0
-    - 0
-    - 0
-    - 0
+    - 4
+    - 4
     nextCard: {fileID: 0}
     unlocksPack: 0
     unlockCardPack: {fileID: 0}
   responseRight: "Isso \xE9 uma magnitude toler\xE1vel"
   resultRight:
     values:
+    - -4
     - 0
-    - 0
-    - 0
-    - 0
+    - 4
+    - 4
     nextCard: {fileID: 0}
     unlocksPack: 0
     unlockCardPack: {fileID: 0}

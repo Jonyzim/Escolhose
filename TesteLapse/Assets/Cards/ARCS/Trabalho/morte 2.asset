@@ -17,6 +17,9 @@ MonoBehaviour:
   character: {fileID: 0}
   characterImage: 1
   die: 0
+  dieUnlocked: 0
+  dieTitle: 
+  dieDescription: 
   responseLeft: 
   resultLeft:
     values:

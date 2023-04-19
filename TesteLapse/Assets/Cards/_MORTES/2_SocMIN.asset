@@ -18,7 +18,7 @@ MonoBehaviour:
   character: {fileID: 0}
   characterImage: 0
   die: 1
-  dieUnlocked: 0
+  dieUnlocked: 1
   dieTitle: "Vinicultor Solit\xE1rio"
   dieDescription: Sempre sovinho
   responseLeft: 

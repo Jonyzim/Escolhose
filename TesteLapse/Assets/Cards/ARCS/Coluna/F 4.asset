@@ -16,12 +16,16 @@ MonoBehaviour:
   image: {fileID: 0}
   character: {fileID: 11400000, guid: f4c60ecb218ab614089e6cd7bb3f866d, type: 2}
   characterImage: 1
+  die: 0
+  dieUnlocked: 0
+  dieTitle: 
+  dieDescription: 
   responseLeft: "T\xF4 me cuidando, v\xF3, fica tranquila"
   resultLeft:
     values:
+    - 8
     - 0
-    - 0
-    - 0
+    - 8
     - 0
     nextCard: {fileID: 0}
     unlocksPack: 0
@@ -29,9 +33,9 @@ MonoBehaviour:
   responseRight: "Mas eu j\xE1 t\xF4"
   resultRight:
     values:
+    - -4
     - 0
-    - 0
-    - 0
+    - 8
     - 0
     nextCard: {fileID: 0}
     unlocksPack: 0

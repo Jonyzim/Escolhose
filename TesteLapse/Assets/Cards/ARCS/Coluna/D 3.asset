@@ -16,10 +16,14 @@ MonoBehaviour:
   image: {fileID: 0}
   character: {fileID: 11400000, guid: 2131332952936c3418eb91f393474825, type: 2}
   characterImage: 1
+  die: 0
+  dieUnlocked: 0
+  dieTitle: 
+  dieDescription: 
   responseLeft: "Os alongamentos est\xE3o ajudando"
   resultLeft:
     values:
-    - 0
+    - 4
     - 0
     - 0
     - 0
@@ -29,9 +33,9 @@ MonoBehaviour:
   responseRight: "Que coluna? Eu n\xE3o sou do filo Chordata"
   resultRight:
     values:
+    - -4
     - 0
-    - 0
-    - 0
+    - 4
     - 0
     nextCard: {fileID: 0}
     unlocksPack: 0

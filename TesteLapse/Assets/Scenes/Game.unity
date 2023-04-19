@@ -1222,6 +1222,7 @@ MonoBehaviour:
   - {fileID: 276263970}
   - {fileID: 1617463368}
   - {fileID: 718046323}
+  _deathMenu: {fileID: 0}
   cardImage: {fileID: 1425978509}
   cardText: {fileID: 785837402}
   characterText: {fileID: 329794948}
@@ -1260,6 +1261,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   source: {fileID: 144604078}
   clip: {fileID: 8300000, guid: 9a7e7f430057fc64cbc663e63388917a, type: 3}
+  sfxToggle: {fileID: 0}
+  musicToggle: {fileID: 0}
 --- !u!114 &697404330 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 6162841429473593031, guid: 0d7c586fab7b72b44b9434917a835a45, type: 3}
@@ -3672,6 +3675,10 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 4b24d680ad011bf40999beb705ba4aad, type: 2}
   - {fileID: 11400000, guid: 1ac90cfa97c6858448a828edffbea0e4, type: 2}
   - {fileID: 11400000, guid: c29f2284907517e4a9d85316c1a73197, type: 2}
+  - {fileID: 11400000, guid: 9f70c916ee8c6c14796602e0e60a96d8, type: 2}
+  - {fileID: 11400000, guid: be86f60226ee8884886f4d5c5958388d, type: 2}
+  - {fileID: 11400000, guid: 6c36825dc373dc440bbdef992554fa23, type: 2}
+  - {fileID: 11400000, guid: cd74b59e8717f5f439be6256a3b1dac0, type: 2}
   deathViewPrefab: {fileID: 296516776986997316, guid: 0fc1459023af44141b3e56a6c008a9e4, type: 3}
   lockedIcon: {fileID: 21300000, guid: 27a4092e863e28746b9ad3d91e38448b, type: 3}
 --- !u!114 &1687489523

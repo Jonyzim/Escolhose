@@ -16,11 +16,15 @@ MonoBehaviour:
   image: {fileID: 0}
   character: {fileID: 11400000, guid: b787071e6a2ea3f49b5be054cfe1adc3, type: 2}
   characterImage: 1
+  die: 0
+  dieUnlocked: 0
+  dieTitle: 
+  dieDescription: 
   responseLeft: "Coluna tava doendo mas amanh\xE3 eu volto"
   resultLeft:
     values:
     - 0
-    - 0
+    - -8
     - 0
     - 0
     nextCard: {fileID: 0}
@@ -31,7 +35,7 @@ MonoBehaviour:
     values:
     - 0
     - 0
-    - 0
+    - 8
     - 0
     nextCard: {fileID: 0}
     unlocksPack: 0

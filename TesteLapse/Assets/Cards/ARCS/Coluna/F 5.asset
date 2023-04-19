@@ -16,12 +16,16 @@ MonoBehaviour:
   image: {fileID: 0}
   character: {fileID: 11400000, guid: f4c60ecb218ab614089e6cd7bb3f866d, type: 2}
   characterImage: 1
+  die: 0
+  dieUnlocked: 0
+  dieTitle: 
+  dieDescription: 
   responseLeft: "Ah, mas ele t\xE1 mais forte que eu"
   resultLeft:
     values:
+    - -4
     - 0
-    - 0
-    - 0
+    - 12
     - 0
     nextCard: {fileID: 0}
     unlocksPack: 0
@@ -29,10 +33,10 @@ MonoBehaviour:
   responseRight: "Que postura? Minha coluna \xE9 topologicamente amorfa"
   resultRight:
     values:
+    - -4
     - 0
-    - 0
-    - 0
-    - 0
+    - 4
+    - 8
     nextCard: {fileID: 0}
     unlocksPack: 0
     unlockCardPack: {fileID: 0}

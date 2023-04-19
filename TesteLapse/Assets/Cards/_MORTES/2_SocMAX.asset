@@ -19,7 +19,7 @@ MonoBehaviour:
   die: 1
   dieUnlocked: 1
   dieTitle: BBB
-  dieDescription: Sla
+  dieDescription: We are watching you
   responseLeft: 
   resultLeft:
     values:

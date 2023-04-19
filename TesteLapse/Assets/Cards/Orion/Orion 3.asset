@@ -13,10 +13,13 @@ MonoBehaviour:
   m_Name: Orion 3
   m_EditorClassIdentifier: 
   text: "Se voc\xEA diz isso para um cachorro, n\xE3o merece jogar esse jogo"
-  image: {fileID: 0}
+  image: {fileID: 21300000, guid: f033e3aaaede92449888ff176111728b, type: 3}
   character: {fileID: 0}
   characterImage: 1
   die: 1
+  dieUnlocked: 0
+  dieTitle: Banido
+  dieDescription: Coitado do cachorro!
   responseLeft: 
   resultLeft:
     values:

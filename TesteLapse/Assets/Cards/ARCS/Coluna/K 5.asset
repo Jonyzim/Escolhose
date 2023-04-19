@@ -14,9 +14,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   text: "De tanta m\xE1 postura, voc\xEA quebra suas costas, mas parab\xE9ns pelas
     notas, novo Stephen Hawking"
-  image: {fileID: 0}
+  image: {fileID: 21300000, guid: 7edf3038b8bfaaa4da10799821ff63df, type: 3}
   character: {fileID: 0}
-  characterImage: 1
+  characterImage: 0
+  die: 1
+  dieUnlocked: 0
+  dieTitle: "Cr\xE9k"
+  dieDescription: Coluna definida por partes
   responseLeft: 
   resultLeft:
     values:

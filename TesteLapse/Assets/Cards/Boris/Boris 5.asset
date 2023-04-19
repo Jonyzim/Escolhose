@@ -13,10 +13,13 @@ MonoBehaviour:
   m_Name: Boris 5
   m_EditorClassIdentifier: 
   text: "O ch\xE1 \xE9 muito forte; voc\xEA transcende e reencarna como um esquilo"
-  image: {fileID: 0}
-  character: {fileID: 11400000, guid: 66cc327adda04d0468aea69d91bcb739, type: 2}
-  characterImage: 1
+  image: {fileID: 21300000, guid: 2cb241dbb30062d4c9eb2bc2b250e0f3, type: 3}
+  character: {fileID: 0}
+  characterImage: 0
   die: 1
+  dieUnlocked: 0
+  dieTitle: Loucumelo
+  dieDescription: Tranquilo como esquilo
   responseLeft: 
   resultLeft:
     values:

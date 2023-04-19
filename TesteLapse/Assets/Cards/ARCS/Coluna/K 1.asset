@@ -14,9 +14,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   text: "N\xE3o \xE9 poss\xEDvel conciliar cuidar da coluna e ser computeiro. Voc\xEA
     tranca o curso"
-  image: {fileID: 0}
+  image: {fileID: 21300000, guid: 2e3081ba52f4f7243a63e64ec37cd2fb, type: 3}
   character: {fileID: 0}
-  characterImage: 1
+  characterImage: 0
+  die: 1
+  dieUnlocked: 0
+  dieTitle: Costas leves
+  dieDescription: "Carreira n\xE3o \xE9 tudo"
   responseLeft: 
   resultLeft:
     values:

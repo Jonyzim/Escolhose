@@ -12,27 +12,31 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0ff8deac57990e74ab9f39cd9828f9c5, type: 3}
   m_Name: I 1
   m_EditorClassIdentifier: 
-  text: "E a coluna ? Reta como uma autoestrada alem\xE3?"
+  text: "E a coluna? Reta como uma autoestrada alem\xE3?"
   image: {fileID: 0}
   character: {fileID: 11400000, guid: f0ba9e706e21b5a41a345f4f29418e92, type: 2}
   characterImage: 1
+  die: 0
+  dieUnlocked: 0
+  dieTitle: 
+  dieDescription: 
   responseLeft: Ja ja ja
   resultLeft:
     values:
+    - 8
     - 0
-    - 0
-    - 0
-    - 0
+    - 8
+    - 16
     nextCard: {fileID: 0}
     unlocksPack: 0
     unlockCardPack: {fileID: 0}
   responseRight: Nein, eu nem penso mais nisso
   resultRight:
     values:
+    - -4
     - 0
     - 0
-    - 0
-    - 0
+    - -4
     nextCard: {fileID: 0}
     unlocksPack: 0
     unlockCardPack: {fileID: 0}

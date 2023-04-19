@@ -17,10 +17,14 @@ MonoBehaviour:
   image: {fileID: 0}
   character: {fileID: 11400000, guid: 5aeda41329b374741b9f206375c6016a, type: 2}
   characterImage: 1
+  die: 0
+  dieUnlocked: 0
+  dieTitle: 
+  dieDescription: 
   responseLeft: "De tudo um pouco eu t\xF4 tentando pra ela ficar no lugar"
   resultLeft:
     values:
-    - 0
+    - 12
     - 0
     - 0
     - 0
@@ -30,10 +34,10 @@ MonoBehaviour:
   responseRight: "Essa coluna Darwin n\xE3o explica, mas Einstein talvez"
   resultRight:
     values:
+    - -4
     - 0
     - 0
-    - 0
-    - 0
+    - 12
     nextCard: {fileID: 0}
     unlocksPack: 0
     unlockCardPack: {fileID: 0}

@@ -14,10 +14,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   text: Dessa forma, sempre que ela vai ao banheiro ou algo assim ela pode olhar
     nos olhos daquela que tirou o que mais amava
-  image: {fileID: 0}
+  image: {fileID: 21300000, guid: eba4bb6e4b142874c93e240fc7071147, type: 3}
   character: {fileID: 0}
   characterImage: 1
   die: 1
+  dieUnlocked: 0
+  dieTitle: "Ser ou n\xE3o ser?"
+  dieDescription: Bom para maratonar animes
   responseLeft: 
   resultLeft:
     values:

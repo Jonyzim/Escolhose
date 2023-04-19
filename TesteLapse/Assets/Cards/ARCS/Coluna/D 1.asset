@@ -16,11 +16,15 @@ MonoBehaviour:
   image: {fileID: 0}
   character: {fileID: 11400000, guid: 2131332952936c3418eb91f393474825, type: 2}
   characterImage: 1
+  die: 0
+  dieUnlocked: 0
+  dieTitle: 
+  dieDescription: 
   responseLeft: Melhorei mas ainda sim vou continuar com a yoga
   resultLeft:
     values:
-    - 0
-    - 0
+    - 4
+    - -4
     - 0
     - 0
     nextCard: {fileID: 0}
@@ -29,9 +33,9 @@ MonoBehaviour:
   responseRight: "At\xE9 que enfim melhorei, n\xE3o aguento mais aquele prof de yoga"
   resultRight:
     values:
-    - 0
-    - 0
-    - 0
+    - 4
+    - 4
+    - 8
     - 0
     nextCard: {fileID: 0}
     unlocksPack: 0

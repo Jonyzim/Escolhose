@@ -14,9 +14,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   text: "Voc\xEA adquire escoliose e consegue o final verdeiro pro game, parab\xE9ns
     :)"
-  image: {fileID: 0}
+  image: {fileID: 21300000, guid: 23fe672eaf5a4424bab71c22cb60b18a, type: 3}
   character: {fileID: 0}
   characterImage: 1
+  die: 0
+  dieUnlocked: 0
+  dieTitle: 
+  dieDescription: 
   responseLeft: 
   resultLeft:
     values:

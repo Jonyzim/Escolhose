@@ -12,16 +12,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0ff8deac57990e74ab9f39cd9828f9c5, type: 3}
   m_Name: D 6
   m_EditorClassIdentifier: 
-  text: 'Morgana: Sim, o Jair'
+  text: Sim, o Jair
   image: {fileID: 0}
   character: {fileID: 11400000, guid: 2131332952936c3418eb91f393474825, type: 2}
   characterImage: 1
+  die: 0
+  dieUnlocked: 0
+  dieTitle: 
+  dieDescription: 
   responseLeft: 
   resultLeft:
     values:
     - 0
     - 0
-    - 0
+    - 8
     - 0
     nextCard: {fileID: 0}
     unlocksPack: 0
@@ -31,7 +35,7 @@ MonoBehaviour:
     values:
     - 0
     - 0
-    - 0
+    - 8
     - 0
     nextCard: {fileID: 0}
     unlocksPack: 0

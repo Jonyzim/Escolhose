@@ -16,12 +16,16 @@ MonoBehaviour:
   image: {fileID: 0}
   character: {fileID: 11400000, guid: 08312db8b7fa7444c8577592bee97de7, type: 2}
   characterImage: 1
+  die: 0
+  dieUnlocked: 0
+  dieTitle: 
+  dieDescription: 
   responseLeft: "Valeu grand\xE3o, mas n\xE3o posso discuidar"
   resultLeft:
     values:
+    - 12
     - 0
-    - 0
-    - 0
+    - 12
     - 0
     nextCard: {fileID: 0}
     unlocksPack: 0
@@ -29,10 +33,10 @@ MonoBehaviour:
   responseRight: "Vou precisar dela pra programar n\xE9"
   resultRight:
     values:
+    - -4
     - 0
-    - 0
-    - 0
-    - 0
+    - -4
+    - 12
     nextCard: {fileID: 0}
     unlocksPack: 0
     unlockCardPack: {fileID: 0}

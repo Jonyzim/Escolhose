@@ -17,12 +17,16 @@ MonoBehaviour:
   image: {fileID: 0}
   character: {fileID: 11400000, guid: 45a43cc9b5e45754d8470696e2eaea78, type: 2}
   characterImage: 1
+  die: 0
+  dieUnlocked: 0
+  dieTitle: 
+  dieDescription: 
   responseLeft: "T\xE1 ruim mas n\xE3o me sujeito a esse tipo de coisa"
   resultLeft:
     values:
-    - 0
-    - 0
-    - 0
+    - 4
+    - -16
+    - 8
     - 0
     nextCard: {fileID: 0}
     unlocksPack: 0
@@ -31,7 +35,7 @@ MonoBehaviour:
   resultRight:
     values:
     - 0
-    - 0
+    - 20
     - 0
     - 0
     nextCard: {fileID: 0}

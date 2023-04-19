@@ -13,10 +13,13 @@ MonoBehaviour:
   m_Name: sus
   m_EditorClassIdentifier: 
   text: 
-  image: {fileID: 0}
+  image: {fileID: 21300000, guid: 00af1d169f9273841bf2e94f220a9d63, type: 3}
   character: {fileID: 0}
-  characterImage: 1
-  die: 0
+  characterImage: 0
+  die: 1
+  dieUnlocked: 0
+  dieTitle: "Entre n\xF3s"
+  dieDescription: Sergio era o impostor
   responseLeft: 
   resultLeft:
     values:

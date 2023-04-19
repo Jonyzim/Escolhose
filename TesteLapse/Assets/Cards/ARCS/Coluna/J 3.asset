@@ -17,20 +17,24 @@ MonoBehaviour:
   image: {fileID: 0}
   character: {fileID: 11400000, guid: 5aeda41329b374741b9f206375c6016a, type: 2}
   characterImage: 1
+  die: 0
+  dieUnlocked: 0
+  dieTitle: 
+  dieDescription: 
   responseLeft: "N\xE3o t\xF4 satisfeito enquanto ela n\xE3o parecer o Chile"
   resultLeft:
     values:
+    - 12
     - 0
     - 0
-    - 0
-    - 0
+    - 12
     nextCard: {fileID: 0}
     unlocksPack: 0
     unlockCardPack: {fileID: 0}
   responseRight: "Eu t\xF4 muito novo pra me preocupar com isso"
   resultRight:
     values:
-    - 0
+    - -12
     - 0
     - 0
     - 0

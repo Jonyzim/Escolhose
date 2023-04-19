@@ -16,12 +16,16 @@ MonoBehaviour:
   image: {fileID: 0}
   character: {fileID: 11400000, guid: f0ba9e706e21b5a41a345f4f29418e92, type: 2}
   characterImage: 1
+  die: 0
+  dieUnlocked: 0
+  dieTitle: 
+  dieDescription: 
   responseLeft: "\xC1s vezes ela faz greve"
   resultLeft:
     values:
     - 0
     - 0
-    - 0
+    - 4
     - 0
     nextCard: {fileID: 0}
     unlocksPack: 0
@@ -31,8 +35,8 @@ MonoBehaviour:
     values:
     - 0
     - 0
-    - 0
-    - 0
+    - 4
+    - 4
     nextCard: {fileID: 0}
     unlocksPack: 0
     unlockCardPack: {fileID: 0}

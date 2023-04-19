@@ -13,10 +13,13 @@ MonoBehaviour:
   m_Name: mfr8 1
   m_EditorClassIdentifier: 
   text: "Ele diz para ela que deu um jeito em voc\xEA. Ela acha fofo e o beija."
-  image: {fileID: 21300000, guid: 88dbd862abb76e44b9875fa10ff7b96c, type: 3}
+  image: {fileID: 21300000, guid: c358d7b7d4a94b34b9b2b132a691dbcd, type: 3}
   character: {fileID: 0}
   characterImage: 1
   die: 1
+  dieUnlocked: 0
+  dieTitle: Enfim um final feliz
+  dieDescription: "Seu sacrif\xEDcio valeu a pena?"
   responseLeft: 
   resultLeft:
     values:

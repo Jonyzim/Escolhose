@@ -17,11 +17,15 @@ MonoBehaviour:
   image: {fileID: 0}
   character: {fileID: 11400000, guid: 45a43cc9b5e45754d8470696e2eaea78, type: 2}
   characterImage: 1
+  die: 0
+  dieUnlocked: 0
+  dieTitle: 
+  dieDescription: 
   responseLeft: "Voc\xEA disse \"ouro\"?"
   resultLeft:
     values:
     - 0
-    - 0
+    - 32
     - 0
     - 0
     nextCard: {fileID: 0}
@@ -30,9 +34,9 @@ MonoBehaviour:
   responseRight: "Voc\xEA disse \"coluna\"?"
   resultRight:
     values:
+    - 4
     - 0
-    - 0
-    - 0
+    - 4
     - 0
     nextCard: {fileID: 0}
     unlocksPack: 0

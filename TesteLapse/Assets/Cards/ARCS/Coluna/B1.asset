@@ -16,12 +16,16 @@ MonoBehaviour:
   image: {fileID: 0}
   character: {fileID: 11400000, guid: 83293f7bd57c4d24584c7d486fc61c49, type: 2}
   characterImage: 1
+  die: 0
+  dieUnlocked: 0
+  dieTitle: 
+  dieDescription: 
   responseLeft: Opa, vou arrumar ela aqui, valeu
   resultLeft:
     values:
+    - 4
     - 0
-    - 0
-    - 0
+    - 4
     - 0
     nextCard: {fileID: 0}
     unlocksPack: 0
@@ -29,9 +33,9 @@ MonoBehaviour:
   responseRight: "N\xE3o se preocupa n\xE3o, ta de boa"
   resultRight:
     values:
+    - -4
     - 0
-    - 0
-    - 0
+    - 4
     - 0
     nextCard: {fileID: 0}
     unlocksPack: 0
