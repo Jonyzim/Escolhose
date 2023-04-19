@@ -33,7 +33,7 @@ public class GameManager : MonoBehaviour
 
     private float DifficultyScale()
     {
-        return (float)0.25 * math.sqrt(score);
+        return (float)0.25 * math.sqrt(score+1);
     }
 
     // Stats UI
@@ -55,13 +55,14 @@ public class GameManager : MonoBehaviour
     
     private void Start()
     {
+        score = 0;
         Shuffle(0,cards.Count);
-        GetSimpleCard();
+        GetCard();
         SetCardUI();
         
         SetStatsUI();
         ResetChange();
-        score = 0;
+        
     }
 
     public void Load(string scene)
@@ -74,22 +75,19 @@ public class GameManager : MonoBehaviour
         public void AnswerLeft()
         {
             if (currCard.die)
-            {
-                
-                print("YOU DIED");
+            { 
+                print(currCard.dieTitle);
+                currCard.dieUnlocked = true;
                 Load(MENU_SCENE);
-
             }
             else
             {
                 if (currCard is ArcCard temp)
                 {
-                    //print("WHATTT");
                     if (currArcDeck == null) throw new UnityException("The current card is a ArcCard, but currArcDeck is NULL.");
 
                     direct_progress = currArcDeck.currCard.isProgressLeftDirect;
                     currArcDeck.currCard = temp.progressLeft;
-                    //print($"The {currArcDeck.title}'s new card will be: {currArcDeck}");
                 }
 
                 HandleResult(currCard.resultLeft);
@@ -102,8 +100,8 @@ public class GameManager : MonoBehaviour
         {
             if (currCard.die)
             {
-
-            // print("YOU DIED");
+                print(currCard.dieTitle);
+                currCard.dieUnlocked = true;
                 Load(MENU_SCENE);
             }
             else
@@ -135,16 +133,10 @@ public class GameManager : MonoBehaviour
         
         private void GetCard()
         {
-            
-            //Obtains a ArcCard
             if ((IsNextCardArc() && GetArcCard()))
                 return;
-            
-            //Obtains a SimpleCard
             currArcDeck = null;
             GetSimpleCard();
-            
-            
         }
 
         private void GetSimpleCard()
@@ -159,16 +151,14 @@ public class GameManager : MonoBehaviour
         {
             if (arcDecks.Count == 0) return false; 
          
-            ArcCard temp = null;
-                
+            ArcCard temp = null;      
             while (temp == null && arcDecks.Count > 0)
             {
                 int index = _random.Next(0, arcDecks.Count);
                 currArcDeck = arcDecks[index];
                 temp = currArcDeck.currCard;
 
-                if (temp == null)
-                    arcDecks.Remove(currArcDeck);
+                if (temp == null) arcDecks.Remove(currArcDeck);
                 else
                 {
                     currCard = temp;
@@ -212,7 +202,7 @@ public class GameManager : MonoBehaviour
                     deathCard = deathPack.GetMaxDeath(i);
                     return true;
                 }
-                else if (stats[i] <= 0)
+                else if (stats[i] < 1)
                 {
                     deathCard = deathPack.GetMinDeath(i);
                     return true;

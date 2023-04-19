@@ -11,12 +11,14 @@ public class DeathMenu : MonoBehaviour
     [SerializeField] private GameObject deathViewPrefab;
     [SerializeField] private Sprite lockedIcon;
     private List<Transform> views = new List<Transform>();
-    
+    bool first = true;
+
     void Awake()
-    {
+    {        
         int n = deathCards.Count;
         for (int i=0;i<n;i++)
         {
+            deathCards[i].dieUnlocked = false;
             GameObject obj=Instantiate(deathViewPrefab, transform);
             views.Add(obj.transform);
         }
@@ -35,17 +37,15 @@ public class DeathMenu : MonoBehaviour
     
     private void SetDeathView(Card card, Transform view)
     {
-        print(card.text);
+        print(card.dieTitle);
+        view.Find("Name").GetComponent<TMP_Text>().text = card.dieTitle;
         if(card.dieUnlocked)
         {
-            view.Find("Name").GetComponent<TMP_Text>().text = card.dieTitle;
             view.Find("Image").GetComponent<Image>().sprite = card.image;
             view.Find("Desc").GetComponent<TMP_Text>().text = card.dieDescription;
         }
         else
         {
-
-            view.Find("Name").GetComponent<TMP_Text>().text = "";
             view.Find("Image").GetComponent<Image>().sprite = lockedIcon;
             view.Find("Desc").GetComponent<TMP_Text>().text = "";
         }
