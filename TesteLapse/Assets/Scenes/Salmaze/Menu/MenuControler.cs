@@ -11,9 +11,6 @@ public class MenuControler : MonoBehaviour
     [SerializeField] AudioClip click;
     [SerializeField] private string GameScene;
 
-    public bool sound_fx;
-    public bool music;
-
     void Awake()
     {
         source.clip = click;
@@ -22,7 +19,7 @@ public class MenuControler : MonoBehaviour
     public void Config()
     {
         PainelConfig.SetActive(true);
-       if (sound_fx == true)
+       if (PlayerPrefs.GetInt("sound_fx") == 1)
        {
            source.Play();
        }
@@ -36,7 +33,7 @@ public class MenuControler : MonoBehaviour
     public void CloseConfig()
     { 
         PainelConfig.SetActive(false);
-        if (sound_fx == true)
+        if (PlayerPrefs.GetInt("sound_fx") == 1)
         {
             source.Play();
         }

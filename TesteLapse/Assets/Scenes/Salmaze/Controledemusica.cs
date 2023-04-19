@@ -23,10 +23,10 @@ public class Controledemusica : MonoBehaviour
         {
             PlayerPrefs.SetInt("music", 1);
             PlayerPrefs.SetInt("sound_fx", 1);
-            music = true;
-            sound_fx = true;
-            sfxToggle.isOn = sound_fx;
-            musicToggle.isOn = music;
+            music = false;
+            sound_fx = false;
+            sfxToggle.isOn = true;
+            musicToggle.isOn = true;
             source.Play();
         }
         
@@ -39,6 +39,7 @@ public class Controledemusica : MonoBehaviour
     public void Music()
     {
         music = !music;
+
         if (music == false)
         {
             source.Stop();
