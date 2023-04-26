@@ -7,18 +7,16 @@ using UnityEngine.UI;
 public class DeathMenu : MonoBehaviour
 {
     public List<Card> deathCards;
-
+    
     [SerializeField] private GameObject deathViewPrefab;
     [SerializeField] private Sprite lockedIcon;
     private List<Transform> views = new List<Transform>();
-    bool first = true;
 
     void Awake()
     {        
         int n = deathCards.Count;
         for (int i=0;i<n;i++)
         {
-            deathCards[i].dieUnlocked = false;
             GameObject obj=Instantiate(deathViewPrefab, transform);
             views.Add(obj.transform);
         }
@@ -31,16 +29,15 @@ public class DeathMenu : MonoBehaviour
         {
             SetDeathView(deathCards[i], views[i]);
         }
-        
         transform.localPosition = new Vector3(0,80f,0);
     }
     
     private void SetDeathView(Card card, Transform view)
     {
-        print(card.dieTitle);
         view.Find("Name").GetComponent<TMP_Text>().text = card.dieTitle;
-        if(card.dieUnlocked)
+        if(persistence.persistentOne.deathPersistence[card])
         {
+            print(">" + card.dieTitle);
             view.Find("Image").GetComponent<Image>().sprite = card.image;
             view.Find("Desc").GetComponent<TMP_Text>().text = card.dieDescription;
         }

@@ -6,7 +6,7 @@ using UnityEngine.UI;
 
 public class CharacterMenu : MonoBehaviour
 {
-    [SerializeField] private List<Character> characters;
+    [SerializeField] public List<Character> characters;
     [SerializeField] private GameObject characterViewPrefab;
     [SerializeField] private Sprite lockedIcon;
     private List<Transform> views=new List<Transform>();
@@ -33,7 +33,7 @@ public class CharacterMenu : MonoBehaviour
     }
     private void SetCharacterView(Character character, Transform view)
     {
-        if (character.unlocked)
+        if (persistence.persistentOne.characterPersistence[character])
         {
             view.Find("Name").GetComponent<TMP_Text>().text = character.name;
             view.Find("Image").GetComponent<Image>().sprite = character.image;
@@ -41,15 +41,9 @@ public class CharacterMenu : MonoBehaviour
         }
         else
         {
-
             view.Find("Name").GetComponent<TMP_Text>().text = "";
             view.Find("Image").GetComponent<Image>().sprite = lockedIcon;
             view.Find("Desc").GetComponent<TMP_Text>().text = "";
         }
-    }
-    // Update is called once per frame
-    void Update()
-    {
-        
     }
 }

@@ -52,6 +52,8 @@ public class GameManager : MonoBehaviour
     
     //Misc
     private System.Random _random = new System.Random();
+    public Sprite background;
+    
     
     private void Start()
     {
@@ -62,62 +64,42 @@ public class GameManager : MonoBehaviour
         
         SetStatsUI();
         ResetChange();
-        
+
+        foreach (var chara in persistence.persistentOne.characterPersistence) chara.Key.unlocked = chara.Value;
+        foreach (var death in persistence.persistentOne.deathPersistence) death.Key.dieUnlocked = death.Value;
     }
 
     public void Load(string scene)
     {
         SceneManager.LoadScene(scene);
-       
     }
     
     #region CardLogic
         public void AnswerLeft()
         {
-            if (currCard.die)
-            { 
-                print(currCard.dieTitle);
-                currCard.dieUnlocked = true;
-                Load(MENU_SCENE);
-            }
-            else
+            if (currCard is ArcCard temp)
             {
-                if (currCard is ArcCard temp)
-                {
-                    if (currArcDeck == null) throw new UnityException("The current card is a ArcCard, but currArcDeck is NULL.");
-
-                    direct_progress = currArcDeck.currCard.isProgressLeftDirect;
-                    currArcDeck.currCard = temp.progressLeft;
-                }
-
-                HandleResult(currCard.resultLeft);
+                if (currArcDeck == null) throw new UnityException("The current card is a ArcCard, but currArcDeck is NULL.");
+                direct_progress = currArcDeck.currCard.isProgressLeftDirect; 
+                currArcDeck.currCard = temp.progressLeft;
             }
-
+            HandleResult(currCard.resultLeft);
         }
+
 
         private bool direct_progress = false;
         public void AnswerRight()
         {
-            if (currCard.die)
+            if (currCard is ArcCard temp)
             {
-                print(currCard.dieTitle);
-                currCard.dieUnlocked = true;
-                Load(MENU_SCENE);
-            }
-            else
-            {
-                if (currCard is ArcCard temp)
-                {
-                    if (currArcDeck == null) throw new UnityException("The current card is a ArcCard, but currArcDeck is NULL.");
+                if (currArcDeck == null) throw new UnityException("The current card is a ArcCard, but currArcDeck is NULL.");
 
-                    direct_progress = currArcDeck.currCard.isProgressRightDirect;
-                    currArcDeck.currCard = temp.progressRight;
-                    print($"The {currArcDeck.title}'s new card will be: {currArcDeck}");
-                }
-
-                HandleResult(currCard.resultRight);
+                direct_progress = currArcDeck.currCard.isProgressRightDirect;
+                currArcDeck.currCard = temp.progressRight;
+                print($"The {currArcDeck.title}'s new card will be: {currArcDeck}");
             }
 
+            HandleResult(currCard.resultRight);
         }
 
         private bool IsNextCardArc()
@@ -190,7 +172,6 @@ public class GameManager : MonoBehaviour
 
     #region StatControl
 
-    bool isDead = false;
     Card deathCard;
     [SerializeField] DeathPack deathPack;
         private bool CheckDeath()
@@ -213,12 +194,17 @@ public class GameManager : MonoBehaviour
 
         private void HandleResult(Result result)
         {
+            if (currCard.die)
+            {
+                persistence.UnlockDeath(currCard);
+                Load(MENU_SCENE);
+                return;
+            }
             UpdateStats(result.values);
-            isDead = CheckDeath();
-            if (isDead)
+            
+            if (CheckDeath())
             {
                 currCard = deathCard;
-                currCard.dieUnlocked = true;
             }
             else
             {
@@ -341,7 +327,7 @@ public class GameManager : MonoBehaviour
             if (currCard.character != null)
             {
                 characterText.text = currCard.character.name;
-                currCard.character.unlocked = true;
+                persistence.UnlockCharacter(currCard.character);
             }
             else
                 characterText.text = "";
@@ -349,7 +335,7 @@ public class GameManager : MonoBehaviour
             cardRespRight.text=currCard.responseRight; 
         }
         
-        [SerializeField] private float statAnimSpeed = 0.008f;
+    [SerializeField] private float statAnimSpeed = 0.008f;
     [SerializeField] private Color positiveColor;
     [SerializeField] private Color negativeColor;
         IEnumerator StatsValueAnim(Slider slider,  float newValue)
