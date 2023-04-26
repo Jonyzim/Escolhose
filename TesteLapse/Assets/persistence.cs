@@ -15,7 +15,6 @@ public class persistence : MonoBehaviour
     {
         persistentOne.deathPersistence[card] = true;
     }
-
     
     public static void UnlockCharacter(Character chara)
     {

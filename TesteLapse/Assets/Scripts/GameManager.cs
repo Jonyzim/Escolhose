@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Runtime.CompilerServices;
 using Unity.Mathematics;
 using UnityEngine;
 using UnityEngine.Serialization;
@@ -52,11 +53,12 @@ public class GameManager : MonoBehaviour
     
     //Misc
     private System.Random _random = new System.Random();
-    public Sprite background;
-    
-    
+    private Absurdities absurdities;
+
+
     private void Start()
     {
+        
         score = 0;
         Shuffle(0,cards.Count);
         GetCard();
@@ -65,6 +67,8 @@ public class GameManager : MonoBehaviour
         SetStatsUI();
         ResetChange();
 
+        absurdities = gameObject.GetComponent<Absurdities>();
+        foreach (var arc in arcDecks) arc.currCard = arc.startingCard;
         foreach (var chara in persistence.persistentOne.characterPersistence) chara.Key.unlocked = chara.Value;
         foreach (var death in persistence.persistentOne.deathPersistence) death.Key.dieUnlocked = death.Value;
     }
@@ -230,6 +234,7 @@ public class GameManager : MonoBehaviour
             }
 
             SetCardUI();
+            absurdities.AbsurdCheck(currCard);
         }
 
         private void UpdateStats(float[] statSum)
