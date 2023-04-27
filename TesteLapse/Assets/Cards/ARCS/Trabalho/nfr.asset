@@ -13,10 +13,13 @@ MonoBehaviour:
   m_Name: nfr
   m_EditorClassIdentifier: 
   text: "Voc\xEA encontra Antonietta na sa\xEDda do banheiro"
-  image: {fileID: 0}
+  image: {fileID: 21300000, guid: b3295934768b7ee4eb19fb40ce92937a, type: 3}
   character: {fileID: 0}
   characterImage: 1
   die: 0
+  dieUnlocked: 0
+  dieTitle: 
+  dieDescription: 
   responseLeft: 
   resultLeft:
     values:

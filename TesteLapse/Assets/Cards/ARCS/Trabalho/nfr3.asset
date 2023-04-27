@@ -13,10 +13,13 @@ MonoBehaviour:
   m_Name: nfr3
   m_EditorClassIdentifier: 
   text: "Voc\xEA \xE9 morto pela Antonietta. Ela vai atr\xE1s da Morgana"
-  image: {fileID: 0}
+  image: {fileID: 21300000, guid: 27a4092e863e28746b9ad3d91e38448b, type: 3}
   character: {fileID: 0}
   characterImage: 1
   die: 0
+  dieUnlocked: 0
+  dieTitle: 
+  dieDescription: 
   responseLeft: 
   resultLeft:
     values:
@@ -38,6 +41,6 @@ MonoBehaviour:
     unlocksPack: 0
     unlockCardPack: {fileID: 0}
   isProgressLeftDirect: 1
-  progressLeft: {fileID: 0}
+  progressLeft: {fileID: 11400000, guid: 7a9d350669a037843a718d2a1af2151e, type: 2}
   isProgressRightDirect: 1
-  progressRight: {fileID: 0}
+  progressRight: {fileID: 11400000, guid: 7a9d350669a037843a718d2a1af2151e, type: 2}

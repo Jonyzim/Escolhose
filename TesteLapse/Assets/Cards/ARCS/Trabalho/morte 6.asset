@@ -16,7 +16,7 @@ MonoBehaviour:
     nos olhos daquela que tirou o que mais amava
   image: {fileID: 21300000, guid: eba4bb6e4b142874c93e240fc7071147, type: 3}
   character: {fileID: 0}
-  characterImage: 1
+  characterImage: 0
   die: 1
   dieUnlocked: 0
   dieTitle: "Ser ou n\xE3o ser?"

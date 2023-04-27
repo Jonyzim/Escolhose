@@ -1199,8 +1199,8 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 12a74589061b5044f862d44e34e60c96, type: 2}
   - {fileID: 11400000, guid: e8963ba160bcf8b49b782022703a1836, type: 2}
   currArcDeck: {fileID: 0}
-  arcMinProgressRate: 6
-  arcProgressChance: 0.15
+  arcMinProgressRate: 5
+  arcProgressChance: 0.23
   cardPacks: []
   arcDecks:
   - {fileID: 11400000, guid: ae66dfe5e47ff2a4caa37b43eb22d4c9, type: 2}
@@ -3759,7 +3759,6 @@ MonoBehaviour:
   - {fileID: 11400000, guid: bf28ff77e7fac86499c579b60d306e66, type: 2}
   - {fileID: 11400000, guid: 21ef4569d2a240740a4b7d39faf51b20, type: 2}
   - {fileID: 11400000, guid: 9e5fef8ce7b638f40a2936c9b0091d28, type: 2}
-  - {fileID: 11400000, guid: b851de008b91de947b00ceeff9d6a710, type: 2}
   - {fileID: 11400000, guid: 45491ce72b9efc443bef26953f4935d0, type: 2}
   deathViewPrefab: {fileID: 296516776986997316, guid: 0fc1459023af44141b3e56a6c008a9e4, type: 3}
   lockedIcon: {fileID: 21300000, guid: 27a4092e863e28746b9ad3d91e38448b, type: 3}

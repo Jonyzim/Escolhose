@@ -13,10 +13,13 @@ MonoBehaviour:
   m_Name: morte 8
   m_EditorClassIdentifier: 
   text: "Morgana \xE9 encontrada mutilada no dia seguinte"
-  image: {fileID: 0}
+  image: {fileID: 21300000, guid: 27a4092e863e28746b9ad3d91e38448b, type: 3}
   character: {fileID: 0}
-  characterImage: 1
+  characterImage: 0
   die: 0
+  dieUnlocked: 0
+  dieTitle: 
+  dieDescription: 
   responseLeft: 
   resultLeft:
     values:

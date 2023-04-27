@@ -16,6 +16,10 @@ MonoBehaviour:
   image: {fileID: 0}
   character: {fileID: 11400000, guid: 47ff61e7007e0ef4fa08617de992d515, type: 2}
   characterImage: 1
+  die: 0
+  dieUnlocked: 0
+  dieTitle: 
+  dieDescription: 
   responseLeft: "Claro! T\xF4 louquinho pra te fazer uma massagem"
   resultLeft:
     values:
@@ -33,6 +37,6 @@ MonoBehaviour:
     - 0
     - -16
     - 0
-    nextCard: {fileID: 11400000, guid: be86f60226ee8884886f4d5c5958388d, type: 2}
+    nextCard: {fileID: 0}
     unlocksPack: 0
     unlockCardPack: {fileID: 0}
