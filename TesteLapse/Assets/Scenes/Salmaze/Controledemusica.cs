@@ -7,53 +7,32 @@ public class Controledemusica : MonoBehaviour
 {
     public AudioSource source;//Fonte
     public AudioClip clip;//Musica
-    [SerializeField] private Toggle sfxToggle;
-    [SerializeField] private Toggle musicToggle;
+    public float musica_volume;
 
+    public AudioSource sfx_source;
+    public AudioClip cardClip;
+    public float sfx_volume;
+    
     private bool sound_fx;
-    private bool music;
 
     void Start()
     {
-        source.loop = true;
-        source.clip = clip;
-        source.volume = 0.3f;
-
-        if (sfxToggle != null || musicToggle != null)
-        {
-            PlayerPrefs.SetInt("music", 1);
-            PlayerPrefs.SetInt("sound_fx", 1);
-            music = false;
-            sound_fx = false;
-            sfxToggle.isOn = true;
-            musicToggle.isOn = true;
-            source.Play();
-        }
-        
         if (PlayerPrefs.GetInt("music") == 1)
         {
-            source.Play();
+            TocarMusica();
         }
     }
 
-    public void Music()
+    public void TocarMusica()
     {
-        music = !music;
-
-        if (music == false)
-        {
-            source.Stop();
-        }
-        if (music == true)
-        {
-            source.Play();
-        }
-        PlayerPrefs.SetInt("music", music ? 1 : 0);
+        source.loop = true;
+        source.clip = clip;
+        source.volume = musica_volume;
+        source.Play();
     }
 
-    public void SFX()
+    public void PararMusica()
     {
-        sound_fx = !sound_fx;
-        PlayerPrefs.SetInt("sound_fx", sound_fx ? 1 : 0);
+        source.Stop();
     }
 }
